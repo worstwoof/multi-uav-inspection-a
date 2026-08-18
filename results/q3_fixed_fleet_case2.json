@@ -1,0 +1,6142 @@
+{
+  "question": "q3_fixed_fleet",
+  "case_id": "Case2",
+  "status": "infeasible_under_9h",
+  "fleet_count": 2,
+  "routes": [
+    [
+      "Case2-P029-V02",
+      "Case2-P038-V01",
+      "Case2-P055-V01",
+      "Case2-P056-V01",
+      "Case2-P057-V01",
+      "Case2-P058-V01",
+      "Case2-P059-V01",
+      "Case2-P049-V01",
+      "Case2-P060-V01",
+      "Case2-P050-V01",
+      "Case2-P061-V01",
+      "Case2-P062-V01",
+      "Case2-P063-V01",
+      "Case2-P072-V01",
+      "Case2-P071-V01",
+      "Case2-P070-V01",
+      "Case2-P071-V02",
+      "Case2-P069-V01",
+      "Case2-P078-V01",
+      "Case2-P077-V01",
+      "Case2-P076-V02",
+      "Case2-P085-V01",
+      "Case2-P084-V01",
+      "Case2-P083-V01",
+      "Case2-P082-V01",
+      "Case2-P091-V01",
+      "Case2-P092-V01",
+      "Case2-P091-V02",
+      "Case2-P092-V03",
+      "Case2-P093-V01",
+      "Case2-P092-V02",
+      "Case2-P094-V01",
+      "Case2-P095-V01",
+      "Case2-P086-V01",
+      "Case2-P087-V01",
+      "Case2-P088-V02",
+      "Case2-P079-V01",
+      "Case2-P080-V01",
+      "Case2-P081-V01",
+      "Case2-P090-V01",
+      "Case2-P089-V01",
+      "Case2-P090-V02",
+      "Case2-P099-V01",
+      "Case2-P098-V01",
+      "Case2-P097-V01",
+      "Case2-P096-V01",
+      "Case2-P094-V02",
+      "Case2-P086-V02",
+      "Case2-P076-V01",
+      "Case2-P075-V01",
+      "Case2-P074-V01",
+      "Case2-P066-V03",
+      "Case2-P065-V01",
+      "Case2-P064-V02",
+      "Case2-P073-V01",
+      "Case2-P075-V02",
+      "Case2-P067-V01",
+      "Case2-P068-V01",
+      "Case2-P066-V02",
+      "Case2-P064-V03",
+      "Case2-P048-V01",
+      "Case2-P035-V01",
+      "Case2-P026-V02",
+      "Case2-P025-V03",
+      "Case2-P023-V02",
+      "Case2-P012-V01",
+      "Case2-P003-V03",
+      "Case2-P001-V02"
+    ],
+    [
+      "Case2-P001-V03",
+      "Case2-P002-V01",
+      "Case2-P003-V01",
+      "Case2-P012-V02",
+      "Case2-P011-V01",
+      "Case2-P010-V01",
+      "Case2-P020-V01",
+      "Case2-P019-V01",
+      "Case2-P028-V01",
+      "Case2-P037-V01",
+      "Case2-P029-V01",
+      "Case2-P030-V01",
+      "Case2-P031-V01",
+      "Case2-P032-V01",
+      "Case2-P041-V01",
+      "Case2-P040-V01",
+      "Case2-P039-V01",
+      "Case2-P038-V02",
+      "Case2-P048-V02",
+      "Case2-P038-V03",
+      "Case2-P047-V01",
+      "Case2-P046-V01",
+      "Case2-P064-V01",
+      "Case2-P066-V01",
+      "Case2-P087-V02",
+      "Case2-P088-V01",
+      "Case2-P079-V02",
+      "Case2-P071-V03",
+      "Case2-P050-V02",
+      "Case2-P051-V01",
+      "Case2-P053-V02",
+      "Case2-P052-V01",
+      "Case2-P053-V01",
+      "Case2-P054-V01",
+      "Case2-P045-V01",
+      "Case2-P044-V01",
+      "Case2-P034-V02",
+      "Case2-P042-V02",
+      "Case2-P034-V01",
+      "Case2-P033-V01",
+      "Case2-P042-V01",
+      "Case2-P043-V01",
+      "Case2-P042-V03",
+      "Case2-P033-V02",
+      "Case2-P025-V01",
+      "Case2-P024-V01",
+      "Case2-P025-V02",
+      "Case2-P026-V01",
+      "Case2-P035-V02",
+      "Case2-P036-V01",
+      "Case2-P027-V01",
+      "Case2-P017-V02",
+      "Case2-P018-V01",
+      "Case2-P017-V01",
+      "Case2-P009-V01",
+      "Case2-P008-V01",
+      "Case2-P007-V01",
+      "Case2-P006-V01",
+      "Case2-P005-V01",
+      "Case2-P014-V01",
+      "Case2-P004-V01",
+      "Case2-P013-V01",
+      "Case2-P022-V01",
+      "Case2-P021-V01",
+      "Case2-P023-V01",
+      "Case2-P015-V01",
+      "Case2-P016-V01",
+      "Case2-P015-V02",
+      "Case2-P012-V03",
+      "Case2-P003-V02",
+      "Case2-P001-V01"
+    ]
+  ],
+  "metrics": {
+    "route_metrics": [
+      {
+        "distance_km": 117.24641512377816,
+        "flight_h": 2.131753002250512,
+        "service_h": 5.666666666666666,
+        "wait_h": 0.0,
+        "detour_km": 0.0,
+        "work_h": 7.7984196689171705,
+        "finish_clock": "15:48",
+        "legs": [
+          {
+            "task_id": "Case2-P029-V02",
+            "path": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                1.5,
+                7.800000000000001
+              ]
+            ],
+            "distance_km": 7.942921376924237,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.0,
+            "arrive_h": 0.1444167523077134,
+            "arrive_clock": "08:09",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P038-V01",
+            "path": [
+              [
+                1.5,
+                7.800000000000001
+              ],
+              [
+                1.7000000000000002,
+                9.5
+              ]
+            ],
+            "distance_km": 1.7117242768623684,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.2277500856410467,
+            "arrive_h": 0.2588723452203625,
+            "arrive_clock": "08:16",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P055-V01",
+            "path": [
+              [
+                1.7000000000000002,
+                9.5
+              ],
+              [
+                0.2,
+                12.4
+              ]
+            ],
+            "distance_km": 3.264965543462902,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.3422056785536958,
+            "arrive_h": 0.4015686884348395,
+            "arrive_clock": "08:24",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P056-V01",
+            "path": [
+              [
+                0.2,
+                12.4
+              ],
+              [
+                1.7000000000000002,
+                13.4
+              ]
+            ],
+            "distance_km": 1.8027756377319948,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.4849020217681728,
+            "arrive_h": 0.5176797606360273,
+            "arrive_clock": "08:31",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P057-V01",
+            "path": [
+              [
+                1.7000000000000002,
+                13.4
+              ],
+              [
+                2.3000000000000003,
+                12.9
+              ]
+            ],
+            "distance_km": 0.7810249675906655,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.6010130939693606,
+            "arrive_h": 0.6152135479255546,
+            "arrive_clock": "08:37",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P058-V01",
+            "path": [
+              [
+                2.3000000000000003,
+                12.9
+              ],
+              [
+                3.6,
+                13.100000000000001
+              ]
+            ],
+            "distance_km": 1.3152946437965904,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.698546881258888,
+            "arrive_h": 0.7224613293279168,
+            "arrive_clock": "08:43",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P059-V01",
+            "path": [
+              [
+                3.6,
+                13.100000000000001
+              ],
+              [
+                4.2,
+                13.700000000000001
+              ]
+            ],
+            "distance_km": 0.8485281374238568,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.8057946626612502,
+            "arrive_h": 0.8212224469780476,
+            "arrive_clock": "08:49",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P049-V01",
+            "path": [
+              [
+                4.2,
+                13.700000000000001
+              ],
+              [
+                3.8000000000000003,
+                11.9
+              ]
+            ],
+            "distance_km": 1.8439088914585782,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.904555780311381,
+            "arrive_h": 0.9380813965197188,
+            "arrive_clock": "08:56",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P060-V01",
+            "path": [
+              [
+                3.8000000000000003,
+                11.9
+              ],
+              [
+                5.300000000000001,
+                12.3
+              ]
+            ],
+            "distance_km": 1.552417469626003,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 1.021414729853052,
+            "arrive_h": 1.0496405020280704,
+            "arrive_clock": "09:03",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P050-V01",
+            "path": [
+              [
+                5.300000000000001,
+                12.3
+              ],
+              [
+                4.6000000000000005,
+                10.700000000000001
+              ]
+            ],
+            "distance_km": 1.7464249196572978,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 1.1329738353614036,
+            "arrive_h": 1.164727015718809,
+            "arrive_clock": "09:10",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P061-V01",
+            "path": [
+              [
+                4.6000000000000005,
+                10.700000000000001
+              ],
+              [
+                6.300000000000001,
+                13.5
+              ]
+            ],
+            "distance_km": 3.275667870831839,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 1.2480603490521422,
+            "arrive_h": 1.3076179467036302,
+            "arrive_clock": "09:18",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P062-V01",
+            "path": [
+              [
+                6.300000000000001,
+                13.5
+              ],
+              [
+                7.2,
+                13.4
+              ]
+            ],
+            "distance_km": 0.9055385138137411,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 1.3909512800369634,
+            "arrive_h": 1.4074156166517586,
+            "arrive_clock": "09:24",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P063-V01",
+            "path": [
+              [
+                7.2,
+                13.4
+              ],
+              [
+                8.700000000000001,
+                12.9
+              ]
+            ],
+            "distance_km": 1.5811388300841904,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 1.4907489499850919,
+            "arrive_h": 1.5194969287138953,
+            "arrive_clock": "09:31",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P072-V01",
+            "path": [
+              [
+                8.700000000000001,
+                12.9
+              ],
+              [
+                8.6,
+                14.9
+              ]
+            ],
+            "distance_km": 2.0024984394500787,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 1.6028302620472286,
+            "arrive_h": 1.6392393245826846,
+            "arrive_clock": "09:38",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P071-V01",
+            "path": [
+              [
+                8.6,
+                14.9
+              ],
+              [
+                7.300000000000001,
+                15.100000000000001
+              ]
+            ],
+            "distance_km": 1.3152946437965896,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 1.7225726579160179,
+            "arrive_h": 1.7464871059850469,
+            "arrive_clock": "09:45",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P070-V01",
+            "path": [
+              [
+                7.300000000000001,
+                15.100000000000001
+              ],
+              [
+                6.6000000000000005,
+                15.100000000000001
+              ]
+            ],
+            "distance_km": 0.7000000000000002,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 1.8298204393183801,
+            "arrive_h": 1.8425477120456528,
+            "arrive_clock": "09:51",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P071-V02",
+            "path": [
+              [
+                6.6000000000000005,
+                15.100000000000001
+              ],
+              [
+                7.300000000000001,
+                15.100000000000001
+              ]
+            ],
+            "distance_km": 0.7000000000000002,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 1.925881045378986,
+            "arrive_h": 1.9386083181062588,
+            "arrive_clock": "09:56",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P069-V01",
+            "path": [
+              [
+                7.300000000000001,
+                15.100000000000001
+              ],
+              [
+                5.7,
+                15.4
+              ]
+            ],
+            "distance_km": 1.627882059609971,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 2.021941651439592,
+            "arrive_h": 2.0515395070688642,
+            "arrive_clock": "10:03",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P078-V01",
+            "path": [
+              [
+                5.7,
+                15.4
+              ],
+              [
+                5.4,
+                16.6
+              ]
+            ],
+            "distance_km": 1.2369316876852992,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 2.1348728404021977,
+            "arrive_h": 2.157362507451021,
+            "arrive_clock": "10:09",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P077-V01",
+            "path": [
+              [
+                5.4,
+                16.6
+              ],
+              [
+                4.6000000000000005,
+                17.2
+              ]
+            ],
+            "distance_km": 0.9999999999999986,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 2.2406958407843547,
+            "arrive_h": 2.2588776589661728,
+            "arrive_clock": "10:16",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P076-V02",
+            "path": [
+              [
+                4.6000000000000005,
+                17.2
+              ],
+              [
+                3.5,
+                17.7
+              ]
+            ],
+            "distance_km": 1.2083045973594577,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 2.3422109922995062,
+            "arrive_h": 2.364180166796951,
+            "arrive_clock": "10:22",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P085-V01",
+            "path": [
+              [
+                3.5,
+                17.7
+              ],
+              [
+                3.8000000000000003,
+                18.7
+              ]
+            ],
+            "distance_km": 1.044030650891055,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 2.4475135001302846,
+            "arrive_h": 2.466495875601031,
+            "arrive_clock": "10:28",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P084-V01",
+            "path": [
+              [
+                3.8000000000000003,
+                18.7
+              ],
+              [
+                2.8000000000000003,
+                18.900000000000002
+              ]
+            ],
+            "distance_km": 1.0198039027185575,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 2.5498292089343644,
+            "arrive_h": 2.5683710980747017,
+            "arrive_clock": "10:34",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P083-V01",
+            "path": [
+              [
+                2.8000000000000003,
+                18.900000000000002
+              ],
+              [
+                1.4000000000000001,
+                19.6
+              ]
+            ],
+            "distance_km": 1.5652475842498526,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 2.651704431408035,
+            "arrive_h": 2.680163478394396,
+            "arrive_clock": "10:41",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P082-V01",
+            "path": [
+              [
+                1.4000000000000001,
+                19.6
+              ],
+              [
+                0.2,
+                19.5
+              ]
+            ],
+            "distance_km": 1.2041594578792298,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 2.7634968117277294,
+            "arrive_h": 2.7853906200528065,
+            "arrive_clock": "10:47",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P091-V01",
+            "path": [
+              [
+                0.2,
+                19.5
+              ],
+              [
+                0.8,
+                21.1
+              ]
+            ],
+            "distance_km": 1.7088007490635075,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 2.86872395338614,
+            "arrive_h": 2.899793057914567,
+            "arrive_clock": "10:54",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P092-V01",
+            "path": [
+              [
+                0.8,
+                21.1
+              ],
+              [
+                1.2000000000000002,
+                21.700000000000003
+              ]
+            ],
+            "distance_km": 0.7211102550927991,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 2.9831263912479007,
+            "arrive_h": 2.9962374867950423,
+            "arrive_clock": "11:00",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P091-V02",
+            "path": [
+              [
+                1.2000000000000002,
+                21.700000000000003
+              ],
+              [
+                0.8,
+                21.1
+              ]
+            ],
+            "distance_km": 0.7211102550927991,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.079570820128376,
+            "arrive_h": 3.0926819156755174,
+            "arrive_clock": "11:06",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P092-V03",
+            "path": [
+              [
+                0.8,
+                21.1
+              ],
+              [
+                1.2000000000000002,
+                21.700000000000003
+              ]
+            ],
+            "distance_km": 0.7211102550927991,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.176015249008851,
+            "arrive_h": 3.1891263445559925,
+            "arrive_clock": "11:11",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P093-V01",
+            "path": [
+              [
+                1.2000000000000002,
+                21.700000000000003
+              ],
+              [
+                2.2,
+                21.0
+              ]
+            ],
+            "distance_km": 1.2206555615733719,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.272459677889326,
+            "arrive_h": 3.294653415372478,
+            "arrive_clock": "11:18",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P092-V02",
+            "path": [
+              [
+                2.2,
+                21.0
+              ],
+              [
+                1.2000000000000002,
+                21.700000000000003
+              ]
+            ],
+            "distance_km": 1.2206555615733719,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.3779867487058115,
+            "arrive_h": 3.4001804861889635,
+            "arrive_clock": "11:24",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P094-V01",
+            "path": [
+              [
+                1.2000000000000002,
+                21.700000000000003
+              ],
+              [
+                3.4000000000000004,
+                21.6
+              ]
+            ],
+            "distance_km": 2.202271554554524,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.483513819522297,
+            "arrive_h": 3.5235551205141973,
+            "arrive_clock": "11:31",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P095-V01",
+            "path": [
+              [
+                3.4000000000000004,
+                21.6
+              ],
+              [
+                4.7,
+                20.3
+              ]
+            ],
+            "distance_km": 1.838477631085024,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.6068884538475308,
+            "arrive_h": 3.6403153198672586,
+            "arrive_clock": "11:38",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P086-V01",
+            "path": [
+              [
+                4.7,
+                20.3
+              ],
+              [
+                4.6000000000000005,
+                19.5
+              ]
+            ],
+            "distance_km": 0.8062257748298556,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.723648653200592,
+            "arrive_h": 3.7383073036520442,
+            "arrive_clock": "11:44",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P087-V01",
+            "path": [
+              [
+                4.6000000000000005,
+                19.5
+              ],
+              [
+                5.7,
+                19.400000000000002
+              ]
+            ],
+            "distance_km": 1.1045361017187256,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.8216406369853777,
+            "arrive_h": 3.841723111562082,
+            "arrive_clock": "11:51",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P088-V02",
+            "path": [
+              [
+                5.7,
+                19.400000000000002
+              ],
+              [
+                6.300000000000001,
+                18.8
+              ]
+            ],
+            "distance_km": 0.8485281374238585,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.9250564448954153,
+            "arrive_h": 3.940484229212213,
+            "arrive_clock": "11:56",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P079-V01",
+            "path": [
+              [
+                6.300000000000001,
+                18.8
+              ],
+              [
+                6.5,
+                17.400000000000002
+              ]
+            ],
+            "distance_km": 1.4142135623730936,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.023817562545546,
+            "arrive_h": 4.049530536406875,
+            "arrive_clock": "12:03",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P080-V01",
+            "path": [
+              [
+                6.5,
+                17.400000000000002
+              ],
+              [
+                7.300000000000001,
+                16.1
+              ]
+            ],
+            "distance_km": 1.5264337522473759,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.132863869740208,
+            "arrive_h": 4.160617210690161,
+            "arrive_clock": "12:10",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P081-V01",
+            "path": [
+              [
+                7.300000000000001,
+                16.1
+              ],
+              [
+                8.6,
+                16.2
+              ]
+            ],
+            "distance_km": 1.3038404810405284,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.243950544023494,
+            "arrive_h": 4.267656734587867,
+            "arrive_clock": "12:16",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P090-V01",
+            "path": [
+              [
+                8.6,
+                16.2
+              ],
+              [
+                8.5,
+                19.400000000000002
+              ]
+            ],
+            "distance_km": 3.2015621187164274,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.3509900679212,
+            "arrive_h": 4.4092002882614985,
+            "arrive_clock": "12:25",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P089-V01",
+            "path": [
+              [
+                8.5,
+                19.400000000000002
+              ],
+              [
+                7.7,
+                19.3
+              ]
+            ],
+            "distance_km": 0.8062257748298549,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.4925336215948315,
+            "arrive_h": 4.507192272046283,
+            "arrive_clock": "12:30",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P090-V02",
+            "path": [
+              [
+                7.7,
+                19.3
+              ],
+              [
+                8.5,
+                19.400000000000002
+              ]
+            ],
+            "distance_km": 0.8062257748298549,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.590525605379616,
+            "arrive_h": 4.605184255831068,
+            "arrive_clock": "12:36",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P099-V01",
+            "path": [
+              [
+                8.5,
+                19.400000000000002
+              ],
+              [
+                8.5,
+                20.400000000000002
+              ]
+            ],
+            "distance_km": 1.0,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.688517589164401,
+            "arrive_h": 4.706699407346219,
+            "arrive_clock": "12:42",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P098-V01",
+            "path": [
+              [
+                8.5,
+                20.400000000000002
+              ],
+              [
+                7.800000000000001,
+                21.0
+              ]
+            ],
+            "distance_km": 0.9219544457292868,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.790032740679552,
+            "arrive_h": 4.806795548783721,
+            "arrive_clock": "12:48",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P097-V01",
+            "path": [
+              [
+                7.800000000000001,
+                21.0
+              ],
+              [
+                6.6000000000000005,
+                20.6
+              ]
+            ],
+            "distance_km": 1.2649110640673515,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.890128882117054,
+            "arrive_h": 4.913127265100097,
+            "arrive_clock": "12:55",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P096-V01",
+            "path": [
+              [
+                6.6000000000000005,
+                20.6
+              ],
+              [
+                5.800000000000001,
+                21.3
+              ]
+            ],
+            "distance_km": 1.0630145812734644,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.99646059843343,
+            "arrive_h": 5.015788136274765,
+            "arrive_clock": "13:01",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P094-V02",
+            "path": [
+              [
+                5.800000000000001,
+                21.3
+              ],
+              [
+                3.4000000000000004,
+                21.6
+              ]
+            ],
+            "distance_km": 2.418677324489565,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.099121469608098,
+            "arrive_h": 5.143097420962454,
+            "arrive_clock": "13:09",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P086-V02",
+            "path": [
+              [
+                3.4000000000000004,
+                21.6
+              ],
+              [
+                4.6000000000000005,
+                19.5
+              ]
+            ],
+            "distance_km": 2.418677324489566,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.226430754295787,
+            "arrive_h": 5.270406705650143,
+            "arrive_clock": "13:16",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P076-V01",
+            "path": [
+              [
+                4.6000000000000005,
+                19.5
+              ],
+              [
+                3.5,
+                17.7
+              ]
+            ],
+            "distance_km": 2.1095023109728994,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.353740038983476,
+            "arrive_h": 5.392094626455711,
+            "arrive_clock": "13:24",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P075-V01",
+            "path": [
+              [
+                3.5,
+                17.7
+              ],
+              [
+                2.5,
+                16.900000000000002
+              ]
+            ],
+            "distance_km": 1.280624847486568,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.475427959789044,
+            "arrive_h": 5.498712047925163,
+            "arrive_clock": "13:30",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P074-V01",
+            "path": [
+              [
+                2.5,
+                16.900000000000002
+              ],
+              [
+                1.3,
+                16.2
+              ]
+            ],
+            "distance_km": 1.3892443989449819,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.582045381258496,
+            "arrive_h": 5.6073043703302226,
+            "arrive_clock": "13:36",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P066-V03",
+            "path": [
+              [
+                1.3,
+                16.2
+              ],
+              [
+                2.5,
+                15.3
+              ]
+            ],
+            "distance_km": 1.4999999999999991,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.690637703663556,
+            "arrive_h": 5.717910430936283,
+            "arrive_clock": "13:43",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P065-V01",
+            "path": [
+              [
+                2.5,
+                15.3
+              ],
+              [
+                1.6,
+                14.700000000000001
+              ]
+            ],
+            "distance_km": 1.0816653826391964,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.801243764269616,
+            "arrive_h": 5.820910407590329,
+            "arrive_clock": "13:49",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P064-V02",
+            "path": [
+              [
+                1.6,
+                14.700000000000001
+              ],
+              [
+                0.2,
+                14.600000000000001
+              ]
+            ],
+            "distance_km": 1.4035668847618201,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.904243740923662,
+            "arrive_h": 5.929763138828423,
+            "arrive_clock": "13:56",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P073-V01",
+            "path": [
+              [
+                0.2,
+                14.600000000000001
+              ],
+              [
+                0.5,
+                17.7
+              ]
+            ],
+            "distance_km": 3.1144823004794855,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.013096472161756,
+            "arrive_h": 6.069723423079565,
+            "arrive_clock": "14:04",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P075-V02",
+            "path": [
+              [
+                0.5,
+                17.7
+              ],
+              [
+                2.5,
+                16.900000000000002
+              ]
+            ],
+            "distance_km": 2.1540659228538006,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.153056756412898,
+            "arrive_h": 6.192221591373876,
+            "arrive_clock": "14:12",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P067-V01",
+            "path": [
+              [
+                2.5,
+                16.900000000000002
+              ],
+              [
+                3.8000000000000003,
+                15.5
+              ]
+            ],
+            "distance_km": 1.9104973174542819,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.275554924707209,
+            "arrive_h": 6.310291239570014,
+            "arrive_clock": "14:19",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P068-V01",
+            "path": [
+              [
+                3.8000000000000003,
+                15.5
+              ],
+              [
+                4.2,
+                15.8
+              ]
+            ],
+            "distance_km": 0.5000000000000003,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.393624572903347,
+            "arrive_h": 6.402715481994256,
+            "arrive_clock": "14:24",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P066-V02",
+            "path": [
+              [
+                4.2,
+                15.8
+              ],
+              [
+                2.5,
+                15.3
+              ]
+            ],
+            "distance_km": 1.7720045146669352,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 6.486048815327589,
+            "arrive_h": 6.518267079230624,
+            "arrive_clock": "14:31",
+            "conflicts": [
+              "Z2"
+            ]
+          },
+          {
+            "task_id": "Case2-P064-V03",
+            "path": [
+              [
+                2.5,
+                15.3
+              ],
+              [
+                0.2,
+                14.600000000000001
+              ]
+            ],
+            "distance_km": 2.4041630560342613,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 6.601600412563957,
+            "arrive_h": 6.645312468128216,
+            "arrive_clock": "14:39",
+            "conflicts": [
+              "Z2"
+            ]
+          },
+          {
+            "task_id": "Case2-P048-V01",
+            "path": [
+              [
+                0.2,
+                14.600000000000001
+              ],
+              [
+                2.5,
+                10.200000000000001
+              ]
+            ],
+            "distance_km": 4.964876634922564,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.728645801461549,
+            "arrive_h": 6.818916285732868,
+            "arrive_clock": "14:49",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P035-V01",
+            "path": [
+              [
+                2.5,
+                10.200000000000001
+              ],
+              [
+                7.800000000000001,
+                6.7
+              ]
+            ],
+            "distance_km": 6.351377803280168,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 6.902249619066201,
+            "arrive_h": 7.017729215489477,
+            "arrive_clock": "15:01",
+            "conflicts": [
+              "Z1"
+            ]
+          },
+          {
+            "task_id": "Case2-P026-V02",
+            "path": [
+              [
+                7.800000000000001,
+                6.7
+              ],
+              [
+                7.1000000000000005,
+                5.7
+              ]
+            ],
+            "distance_km": 1.2206555615733703,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 7.10106254882281,
+            "arrive_h": 7.1232562863059625,
+            "arrive_clock": "15:07",
+            "conflicts": [
+              "Z1"
+            ]
+          },
+          {
+            "task_id": "Case2-P025-V03",
+            "path": [
+              [
+                7.1000000000000005,
+                5.7
+              ],
+              [
+                6.4,
+                5.0
+              ]
+            ],
+            "distance_km": 0.9899494936611668,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 7.206589619639296,
+            "arrive_h": 7.224588701342226,
+            "arrive_clock": "15:13",
+            "conflicts": [
+              "Z1"
+            ]
+          },
+          {
+            "task_id": "Case2-P023-V02",
+            "path": [
+              [
+                6.4,
+                5.0
+              ],
+              [
+                4.7,
+                4.6000000000000005
+              ]
+            ],
+            "distance_km": 1.746424919657298,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 7.307922034675559,
+            "arrive_h": 7.3396752150329645,
+            "arrive_clock": "15:20",
+            "conflicts": [
+              "Z1"
+            ]
+          },
+          {
+            "task_id": "Case2-P012-V01",
+            "path": [
+              [
+                4.7,
+                4.6000000000000005
+              ],
+              [
+                2.3000000000000003,
+                2.5
+              ]
+            ],
+            "distance_km": 3.189043743820395,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 7.4230085483662975,
+            "arrive_h": 7.480991161890305,
+            "arrive_clock": "15:29",
+            "conflicts": [
+              "Z1"
+            ]
+          },
+          {
+            "task_id": "Case2-P003-V03",
+            "path": [
+              [
+                2.3000000000000003,
+                2.5
+              ],
+              [
+                2.4000000000000004,
+                1.8
+              ]
+            ],
+            "distance_km": 0.7071067811865475,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.564324495223638,
+            "arrive_h": 7.577180982154303,
+            "arrive_clock": "15:35",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P001-V02",
+            "path": [
+              [
+                2.4000000000000004,
+                1.8
+              ],
+              [
+                0.6000000000000001,
+                0.4
+              ]
+            ],
+            "distance_km": 2.280350850198276,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.660514315487636,
+            "arrive_h": 7.701975240036695,
+            "arrive_clock": "15:42",
+            "conflicts": []
+          },
+          {
+            "task_id": "BASE_RETURN",
+            "path": [
+              [
+                0.6000000000000001,
+                0.4
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "distance_km": 0.7211102550927979,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.7853085733700285,
+            "arrive_h": 7.7984196689171705,
+            "arrive_clock": "15:48",
+            "conflicts": []
+          }
+        ],
+        "errors": [
+          "service_in_zone:Case2-P049-V01:Z4",
+          "edge_infeasible:Case2-P060-V01",
+          "service_in_zone:Case2-P060-V01:Z4",
+          "edge_infeasible:Case2-P050-V01",
+          "service_in_zone:Case2-P050-V01:Z4",
+          "edge_infeasible:Case2-P061-V01",
+          "service_in_zone:Case2-P061-V01:Z4",
+          "edge_infeasible:Case2-P062-V01",
+          "service_in_zone:Case2-P062-V01:Z4",
+          "edge_infeasible:Case2-P063-V01",
+          "service_in_zone:Case2-P063-V01:Z4",
+          "edge_infeasible:Case2-P072-V01",
+          "service_in_zone:Case2-P072-V01:Z4",
+          "edge_infeasible:Case2-P071-V01",
+          "service_in_zone:Case2-P071-V01:Z4",
+          "edge_infeasible:Case2-P070-V01",
+          "service_in_zone:Case2-P070-V01:Z4",
+          "edge_infeasible:Case2-P071-V02",
+          "service_in_zone:Case2-P071-V02:Z4",
+          "edge_infeasible:Case2-P069-V01",
+          "service_in_zone:Case2-P069-V01:Z4",
+          "edge_infeasible:Case2-P078-V01",
+          "service_in_zone:Case2-P078-V01:Z4",
+          "edge_infeasible:Case2-P077-V01",
+          "service_in_zone:Case2-P077-V01:Z4",
+          "edge_infeasible:Case2-P076-V02",
+          "service_in_zone:Case2-P076-V02:Z4",
+          "edge_infeasible:Case2-P085-V01",
+          "service_in_zone:Case2-P085-V01:Z4",
+          "edge_infeasible:Case2-P084-V01",
+          "service_in_zone:Case2-P084-V01:Z4",
+          "edge_infeasible:Case2-P083-V01",
+          "edge_infeasible:Case2-P066-V02",
+          "service_in_zone:Case2-P066-V02:Z2",
+          "edge_infeasible:Case2-P064-V03",
+          "edge_infeasible:Case2-P035-V01",
+          "service_in_zone:Case2-P035-V01:Z1",
+          "edge_infeasible:Case2-P026-V02",
+          "service_in_zone:Case2-P026-V02:Z1",
+          "edge_infeasible:Case2-P025-V03",
+          "service_in_zone:Case2-P025-V03:Z1",
+          "edge_infeasible:Case2-P023-V02",
+          "service_in_zone:Case2-P023-V02:Z1",
+          "edge_infeasible:Case2-P012-V01"
+        ],
+        "valid": false
+      },
+      {
+        "distance_km": 103.64248419880848,
+        "flight_h": 1.8844088036146995,
+        "service_h": 5.916666666666666,
+        "wait_h": 2.3377523876466015,
+        "detour_km": 0.0,
+        "work_h": 10.138827857927966,
+        "finish_clock": "18:08",
+        "legs": [
+          {
+            "task_id": "Case2-P001-V03",
+            "path": [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.6000000000000001,
+                0.4
+              ]
+            ],
+            "distance_km": 0.7211102550927979,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.0,
+            "arrive_h": 0.01311109554714178,
+            "arrive_clock": "08:01",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P002-V01",
+            "path": [
+              [
+                0.6000000000000001,
+                0.4
+              ],
+              [
+                1.5,
+                1.5
+              ]
+            ],
+            "distance_km": 1.4212670403551895,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.09644442888047511,
+            "arrive_h": 0.12228564779602401,
+            "arrive_clock": "08:07",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P003-V01",
+            "path": [
+              [
+                1.5,
+                1.5
+              ],
+              [
+                2.4000000000000004,
+                1.8
+              ]
+            ],
+            "distance_km": 0.9486832980505141,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.20561898112935734,
+            "arrive_h": 0.2228677683666394,
+            "arrive_clock": "08:13",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P012-V02",
+            "path": [
+              [
+                2.4000000000000004,
+                1.8
+              ],
+              [
+                2.3000000000000003,
+                2.5
+              ]
+            ],
+            "distance_km": 0.7071067811865475,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.3062011016999727,
+            "arrive_h": 0.3190575886306372,
+            "arrive_clock": "08:19",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P011-V01",
+            "path": [
+              [
+                2.3000000000000003,
+                2.5
+              ],
+              [
+                1.7000000000000002,
+                2.6
+              ]
+            ],
+            "distance_km": 0.608276253029822,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.4023909219639705,
+            "arrive_h": 0.4134504902008764,
+            "arrive_clock": "08:25",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P010-V01",
+            "path": [
+              [
+                1.7000000000000002,
+                2.6
+              ],
+              [
+                0.6000000000000001,
+                2.1
+              ]
+            ],
+            "distance_km": 1.2083045973594573,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.4967838235342097,
+            "arrive_h": 0.5187529980316543,
+            "arrive_clock": "08:31",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P020-V01",
+            "path": [
+              [
+                0.6000000000000001,
+                2.1
+              ],
+              [
+                1.2000000000000002,
+                4.4
+              ]
+            ],
+            "distance_km": 2.3769728648009427,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.6020863313649877,
+            "arrive_h": 0.6453040198159139,
+            "arrive_clock": "08:39",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P019-V01",
+            "path": [
+              [
+                1.2000000000000002,
+                4.4
+              ],
+              [
+                0.30000000000000004,
+                5.300000000000001
+              ]
+            ],
+            "distance_km": 1.272792206135786,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.7286373531492473,
+            "arrive_h": 0.7517790296244434,
+            "arrive_clock": "08:45",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P028-V01",
+            "path": [
+              [
+                0.30000000000000004,
+                5.300000000000001
+              ],
+              [
+                0.4,
+                7.2
+              ]
+            ],
+            "distance_km": 1.9026297590440442,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.8351123629577768,
+            "arrive_h": 0.8697056313040321,
+            "arrive_clock": "08:52",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P037-V01",
+            "path": [
+              [
+                0.4,
+                7.2
+              ],
+              [
+                0.7000000000000001,
+                8.1
+              ]
+            ],
+            "distance_km": 0.9486832980505133,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 0.9530389646373655,
+            "arrive_h": 0.9702877518746476,
+            "arrive_clock": "08:58",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P029-V01",
+            "path": [
+              [
+                0.7000000000000001,
+                8.1
+              ],
+              [
+                1.5,
+                7.800000000000001
+              ]
+            ],
+            "distance_km": 0.8544003745317527,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 1.0536210852079808,
+            "arrive_h": 1.0691556374721944,
+            "arrive_clock": "09:04",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P030-V01",
+            "path": [
+              [
+                1.5,
+                7.800000000000001
+              ],
+              [
+                2.2,
+                7.0
+              ]
+            ],
+            "distance_km": 1.0630145812734655,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 1.1524889708055277,
+            "arrive_h": 1.1718165086468635,
+            "arrive_clock": "09:10",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P031-V01",
+            "path": [
+              [
+                2.2,
+                7.0
+              ],
+              [
+                3.4000000000000004,
+                7.1000000000000005
+              ]
+            ],
+            "distance_km": 1.2041594578792298,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 1.2551498419801967,
+            "arrive_h": 1.2770436503052736,
+            "arrive_clock": "09:17",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P032-V01",
+            "path": [
+              [
+                3.4000000000000004,
+                7.1000000000000005
+              ],
+              [
+                4.2,
+                7.9
+              ]
+            ],
+            "distance_km": 1.1313708498984758,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 1.3603769836386068,
+            "arrive_h": 1.38094736272767,
+            "arrive_clock": "09:23",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P041-V01",
+            "path": [
+              [
+                4.2,
+                7.9
+              ],
+              [
+                4.3,
+                8.8
+              ]
+            ],
+            "distance_km": 0.905538513813742,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 1.4642806960610033,
+            "arrive_h": 1.4807450326757987,
+            "arrive_clock": "09:29",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P040-V01",
+            "path": [
+              [
+                4.3,
+                8.8
+              ],
+              [
+                3.2,
+                9.700000000000001
+              ]
+            ],
+            "distance_km": 1.4212670403551895,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 1.564078366009132,
+            "arrive_h": 1.5899195849246808,
+            "arrive_clock": "09:35",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P039-V01",
+            "path": [
+              [
+                3.2,
+                9.700000000000001
+              ],
+              [
+                2.6,
+                9.8
+              ]
+            ],
+            "distance_km": 0.608276253029822,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 1.673252918258014,
+            "arrive_h": 1.68431248649492,
+            "arrive_clock": "09:41",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P038-V02",
+            "path": [
+              [
+                2.6,
+                9.8
+              ],
+              [
+                1.7000000000000002,
+                9.5
+              ]
+            ],
+            "distance_km": 0.948683298050514,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 1.7676458198282532,
+            "arrive_h": 1.7848946070655354,
+            "arrive_clock": "09:47",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P048-V02",
+            "path": [
+              [
+                1.7000000000000002,
+                9.5
+              ],
+              [
+                2.5,
+                10.200000000000001
+              ]
+            ],
+            "distance_km": 1.0630145812734655,
+            "wait_h": 1.6317720596011314,
+            "action": "wait",
+            "depart_h": 3.5,
+            "arrive_h": 3.5193275378413356,
+            "arrive_clock": "11:31",
+            "conflicts": [
+              "Z4"
+            ]
+          },
+          {
+            "task_id": "Case2-P038-V03",
+            "path": [
+              [
+                2.5,
+                10.200000000000001
+              ],
+              [
+                1.7000000000000002,
+                9.5
+              ]
+            ],
+            "distance_km": 1.0630145812734655,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.602660871174669,
+            "arrive_h": 3.6219884090160046,
+            "arrive_clock": "11:37",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P047-V01",
+            "path": [
+              [
+                1.7000000000000002,
+                9.5
+              ],
+              [
+                1.3,
+                11.100000000000001
+              ]
+            ],
+            "distance_km": 1.6492422502470656,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.705321742349338,
+            "arrive_h": 3.7353079650811027,
+            "arrive_clock": "11:44",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P046-V01",
+            "path": [
+              [
+                1.3,
+                11.100000000000001
+              ],
+              [
+                0.5,
+                10.9
+              ]
+            ],
+            "distance_km": 0.8246211251235324,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.8186412984144362,
+            "arrive_h": 3.8336344097803186,
+            "arrive_clock": "11:50",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P064-V01",
+            "path": [
+              [
+                0.5,
+                10.9
+              ],
+              [
+                0.2,
+                14.600000000000001
+              ]
+            ],
+            "distance_km": 3.7121422386541183,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 3.916967743113652,
+            "arrive_h": 3.984461238361909,
+            "arrive_clock": "11:59",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P066-V01",
+            "path": [
+              [
+                0.2,
+                14.600000000000001
+              ],
+              [
+                2.5,
+                15.3
+              ]
+            ],
+            "distance_km": 2.4041630560342613,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.067794571695242,
+            "arrive_h": 4.111506627259502,
+            "arrive_clock": "12:07",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P087-V02",
+            "path": [
+              [
+                2.5,
+                15.3
+              ],
+              [
+                5.7,
+                19.400000000000002
+              ]
+            ],
+            "distance_km": 5.2009614495783385,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.194839960592835,
+            "arrive_h": 4.2894028960397135,
+            "arrive_clock": "12:17",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P088-V01",
+            "path": [
+              [
+                5.7,
+                19.400000000000002
+              ],
+              [
+                6.300000000000001,
+                18.8
+              ]
+            ],
+            "distance_km": 0.8485281374238585,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.3727362293730465,
+            "arrive_h": 4.388164013689844,
+            "arrive_clock": "12:23",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P079-V02",
+            "path": [
+              [
+                6.300000000000001,
+                18.8
+              ],
+              [
+                6.5,
+                17.400000000000002
+              ]
+            ],
+            "distance_km": 1.4142135623730936,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.471497347023177,
+            "arrive_h": 4.497210320884506,
+            "arrive_clock": "12:30",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P071-V03",
+            "path": [
+              [
+                6.5,
+                17.400000000000002
+              ],
+              [
+                7.300000000000001,
+                15.100000000000001
+              ]
+            ],
+            "distance_km": 2.435159132377185,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.580543654217839,
+            "arrive_h": 4.624819274806515,
+            "arrive_clock": "12:37",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P050-V02",
+            "path": [
+              [
+                7.300000000000001,
+                15.100000000000001
+              ],
+              [
+                4.6000000000000005,
+                10.700000000000001
+              ]
+            ],
+            "distance_km": 5.162363799656123,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.708152608139848,
+            "arrive_h": 4.8020137681335955,
+            "arrive_clock": "12:48",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P051-V01",
+            "path": [
+              [
+                4.6000000000000005,
+                10.700000000000001
+              ],
+              [
+                5.800000000000001,
+                11.0
+              ]
+            ],
+            "distance_km": 1.236931687685298,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.8853471014669285,
+            "arrive_h": 4.907836768515752,
+            "arrive_clock": "12:54",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P053-V02",
+            "path": [
+              [
+                5.800000000000001,
+                11.0
+              ],
+              [
+                7.4,
+                11.3
+              ]
+            ],
+            "distance_km": 1.6278820596099703,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 4.991170101849085,
+            "arrive_h": 5.020767957478357,
+            "arrive_clock": "13:01",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P052-V01",
+            "path": [
+              [
+                7.4,
+                11.3
+              ],
+              [
+                6.7,
+                11.0
+              ]
+            ],
+            "distance_km": 0.7615773105863912,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.10410129081169,
+            "arrive_h": 5.11794815100417,
+            "arrive_clock": "13:07",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P053-V01",
+            "path": [
+              [
+                6.7,
+                11.0
+              ],
+              [
+                7.4,
+                11.3
+              ]
+            ],
+            "distance_km": 0.7615773105863912,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.201281484337503,
+            "arrive_h": 5.215128344529983,
+            "arrive_clock": "13:13",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P054-V01",
+            "path": [
+              [
+                7.4,
+                11.3
+              ],
+              [
+                8.8,
+                11.0
+              ]
+            ],
+            "distance_km": 1.431782106327636,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.298461677863316,
+            "arrive_h": 5.324494079796546,
+            "arrive_clock": "13:19",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P045-V01",
+            "path": [
+              [
+                8.8,
+                11.0
+              ],
+              [
+                8.3,
+                9.8
+              ]
+            ],
+            "distance_km": 1.2999999999999994,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.407827413129879,
+            "arrive_h": 5.431463776766242,
+            "arrive_clock": "13:26",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P044-V01",
+            "path": [
+              [
+                8.3,
+                9.8
+              ],
+              [
+                7.800000000000001,
+                8.3
+              ]
+            ],
+            "distance_km": 1.5811388300841898,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.514797110099575,
+            "arrive_h": 5.543545088828379,
+            "arrive_clock": "13:33",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P034-V02",
+            "path": [
+              [
+                7.800000000000001,
+                8.3
+              ],
+              [
+                6.6000000000000005,
+                7.9
+              ]
+            ],
+            "distance_km": 1.264911064067352,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.626878422161712,
+            "arrive_h": 5.649876805144755,
+            "arrive_clock": "13:39",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P042-V02",
+            "path": [
+              [
+                6.6000000000000005,
+                7.9
+              ],
+              [
+                5.7,
+                8.9
+              ]
+            ],
+            "distance_km": 1.3453624047073713,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.733210138478088,
+            "arrive_h": 5.757671273109131,
+            "arrive_clock": "13:45",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P034-V01",
+            "path": [
+              [
+                5.7,
+                8.9
+              ],
+              [
+                6.6000000000000005,
+                7.9
+              ]
+            ],
+            "distance_km": 1.3453624047073713,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.841004606442464,
+            "arrive_h": 5.865465741073507,
+            "arrive_clock": "13:52",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P033-V01",
+            "path": [
+              [
+                6.6000000000000005,
+                7.9
+              ],
+              [
+                5.4,
+                7.7
+              ]
+            ],
+            "distance_km": 1.216552506059644,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 5.94879907440684,
+            "arrive_h": 5.970918210880652,
+            "arrive_clock": "13:58",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P042-V01",
+            "path": [
+              [
+                5.4,
+                7.7
+              ],
+              [
+                5.7,
+                8.9
+              ]
+            ],
+            "distance_km": 1.2369316876852983,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.054251544213985,
+            "arrive_h": 6.076741211262808,
+            "arrive_clock": "14:05",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P043-V01",
+            "path": [
+              [
+                5.7,
+                8.9
+              ],
+              [
+                6.4,
+                8.5
+              ]
+            ],
+            "distance_km": 0.8062257748298552,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.160074544596141,
+            "arrive_h": 6.174733195047593,
+            "arrive_clock": "14:10",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P042-V03",
+            "path": [
+              [
+                6.4,
+                8.5
+              ],
+              [
+                5.7,
+                8.9
+              ]
+            ],
+            "distance_km": 0.8062257748298552,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.258066528380926,
+            "arrive_h": 6.272725178832378,
+            "arrive_clock": "14:16",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P033-V02",
+            "path": [
+              [
+                5.7,
+                8.9
+              ],
+              [
+                5.4,
+                7.7
+              ]
+            ],
+            "distance_km": 1.2369316876852983,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.356058512165711,
+            "arrive_h": 6.378548179214534,
+            "arrive_clock": "14:23",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P025-V01",
+            "path": [
+              [
+                5.4,
+                7.7
+              ],
+              [
+                6.4,
+                5.0
+              ]
+            ],
+            "distance_km": 2.879236009777594,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.461881512547867,
+            "arrive_h": 6.514231258180187,
+            "arrive_clock": "14:31",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P024-V01",
+            "path": [
+              [
+                6.4,
+                5.0
+              ],
+              [
+                5.5,
+                5.2
+              ]
+            ],
+            "distance_km": 0.9219544457292891,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.59756459151352,
+            "arrive_h": 6.6143273996176895,
+            "arrive_clock": "14:37",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P025-V02",
+            "path": [
+              [
+                5.5,
+                5.2
+              ],
+              [
+                6.4,
+                5.0
+              ]
+            ],
+            "distance_km": 0.9219544457292891,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.6976607329510225,
+            "arrive_h": 6.714423541055192,
+            "arrive_clock": "14:43",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P026-V01",
+            "path": [
+              [
+                6.4,
+                5.0
+              ],
+              [
+                7.1000000000000005,
+                5.7
+              ]
+            ],
+            "distance_km": 0.9899494936611668,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.797756874388525,
+            "arrive_h": 6.815755956091455,
+            "arrive_clock": "14:49",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P035-V02",
+            "path": [
+              [
+                7.1000000000000005,
+                5.7
+              ],
+              [
+                7.800000000000001,
+                6.7
+              ]
+            ],
+            "distance_km": 1.2206555615733703,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 6.899089289424788,
+            "arrive_h": 6.921283026907941,
+            "arrive_clock": "14:55",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P036-V01",
+            "path": [
+              [
+                7.800000000000001,
+                6.7
+              ],
+              [
+                8.700000000000001,
+                7.300000000000001
+              ]
+            ],
+            "distance_km": 1.0816653826391973,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 7.004616360241274,
+            "arrive_h": 7.024283003561987,
+            "arrive_clock": "15:01",
+            "conflicts": [
+              "Z1"
+            ]
+          },
+          {
+            "task_id": "Case2-P027-V01",
+            "path": [
+              [
+                8.700000000000001,
+                7.300000000000001
+              ],
+              [
+                8.700000000000001,
+                5.7
+              ]
+            ],
+            "distance_km": 1.6000000000000005,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 7.10761633689532,
+            "arrive_h": 7.136707245986229,
+            "arrive_clock": "15:08",
+            "conflicts": [
+              "Z1"
+            ]
+          },
+          {
+            "task_id": "Case2-P017-V02",
+            "path": [
+              [
+                8.700000000000001,
+                5.7
+              ],
+              [
+                7.800000000000001,
+                3.9000000000000004
+              ]
+            ],
+            "distance_km": 2.0124611797498106,
+            "wait_h": 0.0,
+            "action": "infeasible",
+            "depart_h": 7.220040579319562,
+            "arrive_h": 7.256630782587741,
+            "arrive_clock": "15:15",
+            "conflicts": [
+              "Z1"
+            ]
+          },
+          {
+            "task_id": "Case2-P018-V01",
+            "path": [
+              [
+                7.800000000000001,
+                3.9000000000000004
+              ],
+              [
+                8.700000000000001,
+                3.5
+              ]
+            ],
+            "distance_km": 0.9848857801796109,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.339964115921074,
+            "arrive_h": 7.357871130106157,
+            "arrive_clock": "15:21",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P017-V01",
+            "path": [
+              [
+                8.700000000000001,
+                3.5
+              ],
+              [
+                7.800000000000001,
+                3.9000000000000004
+              ]
+            ],
+            "distance_km": 0.9848857801796109,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.44120446343949,
+            "arrive_h": 7.459111477624574,
+            "arrive_clock": "15:28",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P009-V01",
+            "path": [
+              [
+                7.800000000000001,
+                3.9000000000000004
+              ],
+              [
+                8.6,
+                1.5
+              ]
+            ],
+            "distance_km": 2.5298221281347035,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.542444810957907,
+            "arrive_h": 7.588441576923993,
+            "arrive_clock": "15:35",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P008-V01",
+            "path": [
+              [
+                8.6,
+                1.5
+              ],
+              [
+                7.7,
+                1.0
+              ]
+            ],
+            "distance_km": 1.0295630140986995,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.671774910257326,
+            "arrive_h": 7.6904942377863925,
+            "arrive_clock": "15:41",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P007-V01",
+            "path": [
+              [
+                7.7,
+                1.0
+              ],
+              [
+                6.7,
+                1.0
+              ]
+            ],
+            "distance_km": 1.0,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.7738275711197256,
+            "arrive_h": 7.792009389301544,
+            "arrive_clock": "15:48",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P006-V01",
+            "path": [
+              [
+                6.7,
+                1.0
+              ],
+              [
+                5.7,
+                1.4000000000000001
+              ]
+            ],
+            "distance_km": 1.0770329614269007,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.875342722634877,
+            "arrive_h": 7.894925140115366,
+            "arrive_clock": "15:54",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P005-V01",
+            "path": [
+              [
+                5.7,
+                1.4000000000000001
+              ],
+              [
+                4.800000000000001,
+                1.2000000000000002
+              ]
+            ],
+            "distance_km": 0.9219544457292882,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 7.978258473448699,
+            "arrive_h": 7.9950212815528685,
+            "arrive_clock": "16:00",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P014-V01",
+            "path": [
+              [
+                4.800000000000001,
+                1.2000000000000002
+              ],
+              [
+                4.3,
+                2.3000000000000003
+              ]
+            ],
+            "distance_km": 1.2083045973594577,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 8.078354614886202,
+            "arrive_h": 8.100323789383646,
+            "arrive_clock": "16:06",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P004-V01",
+            "path": [
+              [
+                4.3,
+                2.3000000000000003
+              ],
+              [
+                3.3000000000000003,
+                1.2000000000000002
+              ]
+            ],
+            "distance_km": 1.4866068747318504,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 8.18365712271698,
+            "arrive_h": 8.210686338621196,
+            "arrive_clock": "16:13",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P013-V01",
+            "path": [
+              [
+                3.3000000000000003,
+                1.2000000000000002
+              ],
+              [
+                3.2,
+                3.5
+              ]
+            ],
+            "distance_km": 2.3021728866442674,
+            "wait_h": 0.7059803280454702,
+            "action": "wait",
+            "depart_h": 9.0,
+            "arrive_h": 9.041857688848078,
+            "arrive_clock": "17:03",
+            "conflicts": [
+              "Z1"
+            ]
+          },
+          {
+            "task_id": "Case2-P022-V01",
+            "path": [
+              [
+                3.2,
+                3.5
+              ],
+              [
+                3.3000000000000003,
+                4.9
+              ]
+            ],
+            "distance_km": 1.4035668847618203,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 9.125191022181411,
+            "arrive_h": 9.150710420086172,
+            "arrive_clock": "17:09",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P021-V01",
+            "path": [
+              [
+                3.3000000000000003,
+                4.9
+              ],
+              [
+                2.8000000000000003,
+                5.300000000000001
+              ]
+            ],
+            "distance_km": 0.6403124237432851,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 9.234043753419506,
+            "arrive_h": 9.245685797487566,
+            "arrive_clock": "17:15",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P023-V01",
+            "path": [
+              [
+                2.8000000000000003,
+                5.300000000000001
+              ],
+              [
+                4.7,
+                4.6000000000000005
+              ]
+            ],
+            "distance_km": 2.024845673131659,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 9.3290191308209,
+            "arrive_h": 9.365834506696022,
+            "arrive_clock": "17:22",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P015-V01",
+            "path": [
+              [
+                4.7,
+                4.6000000000000005
+              ],
+              [
+                5.5,
+                3.5
+              ]
+            ],
+            "distance_km": 1.3601470508735447,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 9.449167840029356,
+            "arrive_h": 9.473897786408875,
+            "arrive_clock": "17:28",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P016-V01",
+            "path": [
+              [
+                5.5,
+                3.5
+              ],
+              [
+                6.5,
+                3.6
+              ]
+            ],
+            "distance_km": 1.004987562112089,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 9.557231119742209,
+            "arrive_h": 9.575503620871519,
+            "arrive_clock": "17:35",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P015-V02",
+            "path": [
+              [
+                6.5,
+                3.6
+              ],
+              [
+                5.5,
+                3.5
+              ]
+            ],
+            "distance_km": 1.004987562112089,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 9.658836954204853,
+            "arrive_h": 9.677109455334163,
+            "arrive_clock": "17:41",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P012-V03",
+            "path": [
+              [
+                5.5,
+                3.5
+              ],
+              [
+                2.3000000000000003,
+                2.5
+              ]
+            ],
+            "distance_km": 3.352610922848042,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 9.760442788667497,
+            "arrive_h": 9.821399350901098,
+            "arrive_clock": "17:49",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P003-V02",
+            "path": [
+              [
+                2.3000000000000003,
+                2.5
+              ],
+              [
+                2.4000000000000004,
+                1.8
+              ]
+            ],
+            "distance_km": 0.7071067811865475,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 9.904732684234432,
+            "arrive_h": 9.917589171165096,
+            "arrive_clock": "17:55",
+            "conflicts": []
+          },
+          {
+            "task_id": "Case2-P001-V01",
+            "path": [
+              [
+                2.4000000000000004,
+                1.8
+              ],
+              [
+                0.6000000000000001,
+                0.4
+              ]
+            ],
+            "distance_km": 2.280350850198276,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 10.00092250449843,
+            "arrive_h": 10.04238342904749,
+            "arrive_clock": "18:03",
+            "conflicts": []
+          },
+          {
+            "task_id": "BASE_RETURN",
+            "path": [
+              [
+                0.6000000000000001,
+                0.4
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ],
+            "distance_km": 0.7211102550927979,
+            "wait_h": 0.0,
+            "action": "direct",
+            "depart_h": 10.125716762380824,
+            "arrive_h": 10.138827857927966,
+            "arrive_clock": "18:08",
+            "conflicts": []
+          }
+        ],
+        "errors": [
+          "service_in_zone:Case2-P035-V02:Z1",
+          "edge_infeasible:Case2-P036-V01",
+          "service_in_zone:Case2-P036-V01:Z1",
+          "edge_infeasible:Case2-P027-V01",
+          "service_in_zone:Case2-P027-V01:Z1",
+          "edge_infeasible:Case2-P017-V02"
+        ],
+        "valid": false
+      }
+    ],
+    "Tmax_h": 10.138827857927966,
+    "Tmin_h": 7.7984196689171705,
+    "delta_h": 2.3404081890107955,
+    "total_distance_km": 220.88889932258664,
+    "total_wait_h": 2.3377523876466015,
+    "total_detour_km": 0.0
+  },
+  "validation": {
+    "valid": false,
+    "errors": [
+      "route_1:service_in_zone:Case2-P049-V01:Z4",
+      "route_1:edge_infeasible:Case2-P060-V01",
+      "route_1:service_in_zone:Case2-P060-V01:Z4",
+      "route_1:edge_infeasible:Case2-P050-V01",
+      "route_1:service_in_zone:Case2-P050-V01:Z4",
+      "route_1:edge_infeasible:Case2-P061-V01",
+      "route_1:service_in_zone:Case2-P061-V01:Z4",
+      "route_1:edge_infeasible:Case2-P062-V01",
+      "route_1:service_in_zone:Case2-P062-V01:Z4",
+      "route_1:edge_infeasible:Case2-P063-V01",
+      "route_1:service_in_zone:Case2-P063-V01:Z4",
+      "route_1:edge_infeasible:Case2-P072-V01",
+      "route_1:service_in_zone:Case2-P072-V01:Z4",
+      "route_1:edge_infeasible:Case2-P071-V01",
+      "route_1:service_in_zone:Case2-P071-V01:Z4",
+      "route_1:edge_infeasible:Case2-P070-V01",
+      "route_1:service_in_zone:Case2-P070-V01:Z4",
+      "route_1:edge_infeasible:Case2-P071-V02",
+      "route_1:service_in_zone:Case2-P071-V02:Z4",
+      "route_1:edge_infeasible:Case2-P069-V01",
+      "route_1:service_in_zone:Case2-P069-V01:Z4",
+      "route_1:edge_infeasible:Case2-P078-V01",
+      "route_1:service_in_zone:Case2-P078-V01:Z4",
+      "route_1:edge_infeasible:Case2-P077-V01",
+      "route_1:service_in_zone:Case2-P077-V01:Z4",
+      "route_1:edge_infeasible:Case2-P076-V02",
+      "route_1:service_in_zone:Case2-P076-V02:Z4",
+      "route_1:edge_infeasible:Case2-P085-V01",
+      "route_1:service_in_zone:Case2-P085-V01:Z4",
+      "route_1:edge_infeasible:Case2-P084-V01",
+      "route_1:service_in_zone:Case2-P084-V01:Z4",
+      "route_1:edge_infeasible:Case2-P083-V01",
+      "route_1:edge_infeasible:Case2-P066-V02",
+      "route_1:service_in_zone:Case2-P066-V02:Z2",
+      "route_1:edge_infeasible:Case2-P064-V03",
+      "route_1:edge_infeasible:Case2-P035-V01",
+      "route_1:service_in_zone:Case2-P035-V01:Z1",
+      "route_1:edge_infeasible:Case2-P026-V02",
+      "route_1:service_in_zone:Case2-P026-V02:Z1",
+      "route_1:edge_infeasible:Case2-P025-V03",
+      "route_1:service_in_zone:Case2-P025-V03:Z1",
+      "route_1:edge_infeasible:Case2-P023-V02",
+      "route_1:service_in_zone:Case2-P023-V02:Z1",
+      "route_1:edge_infeasible:Case2-P012-V01",
+      "route_2:service_in_zone:Case2-P035-V02:Z1",
+      "route_2:edge_infeasible:Case2-P036-V01",
+      "route_2:service_in_zone:Case2-P036-V01:Z1",
+      "route_2:edge_infeasible:Case2-P027-V01",
+      "route_2:service_in_zone:Case2-P027-V01:Z1",
+      "route_2:edge_infeasible:Case2-P017-V02",
+      "route_2:over_horizon_dynamic"
+    ],
+    "task_coverage": true,
+    "consecutive_point": true,
+    "multiplicity_valid": true,
+    "routes_closed": true,
+    "within_9h": false,
+    "nofly_valid": false,
+    "metrics": {
+      "route_metrics": [
+        {
+          "distance_km": 117.24641512377816,
+          "flight_h": 2.131753002250512,
+          "service_h": 5.666666666666666,
+          "wait_h": 0.0,
+          "detour_km": 0.0,
+          "work_h": 7.7984196689171705,
+          "finish_clock": "15:48",
+          "legs": [
+            {
+              "task_id": "Case2-P029-V02",
+              "path": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  1.5,
+                  7.800000000000001
+                ]
+              ],
+              "distance_km": 7.942921376924237,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.0,
+              "arrive_h": 0.1444167523077134,
+              "arrive_clock": "08:09",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P038-V01",
+              "path": [
+                [
+                  1.5,
+                  7.800000000000001
+                ],
+                [
+                  1.7000000000000002,
+                  9.5
+                ]
+              ],
+              "distance_km": 1.7117242768623684,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.2277500856410467,
+              "arrive_h": 0.2588723452203625,
+              "arrive_clock": "08:16",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P055-V01",
+              "path": [
+                [
+                  1.7000000000000002,
+                  9.5
+                ],
+                [
+                  0.2,
+                  12.4
+                ]
+              ],
+              "distance_km": 3.264965543462902,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.3422056785536958,
+              "arrive_h": 0.4015686884348395,
+              "arrive_clock": "08:24",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P056-V01",
+              "path": [
+                [
+                  0.2,
+                  12.4
+                ],
+                [
+                  1.7000000000000002,
+                  13.4
+                ]
+              ],
+              "distance_km": 1.8027756377319948,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.4849020217681728,
+              "arrive_h": 0.5176797606360273,
+              "arrive_clock": "08:31",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P057-V01",
+              "path": [
+                [
+                  1.7000000000000002,
+                  13.4
+                ],
+                [
+                  2.3000000000000003,
+                  12.9
+                ]
+              ],
+              "distance_km": 0.7810249675906655,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.6010130939693606,
+              "arrive_h": 0.6152135479255546,
+              "arrive_clock": "08:37",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P058-V01",
+              "path": [
+                [
+                  2.3000000000000003,
+                  12.9
+                ],
+                [
+                  3.6,
+                  13.100000000000001
+                ]
+              ],
+              "distance_km": 1.3152946437965904,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.698546881258888,
+              "arrive_h": 0.7224613293279168,
+              "arrive_clock": "08:43",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P059-V01",
+              "path": [
+                [
+                  3.6,
+                  13.100000000000001
+                ],
+                [
+                  4.2,
+                  13.700000000000001
+                ]
+              ],
+              "distance_km": 0.8485281374238568,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.8057946626612502,
+              "arrive_h": 0.8212224469780476,
+              "arrive_clock": "08:49",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P049-V01",
+              "path": [
+                [
+                  4.2,
+                  13.700000000000001
+                ],
+                [
+                  3.8000000000000003,
+                  11.9
+                ]
+              ],
+              "distance_km": 1.8439088914585782,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.904555780311381,
+              "arrive_h": 0.9380813965197188,
+              "arrive_clock": "08:56",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P060-V01",
+              "path": [
+                [
+                  3.8000000000000003,
+                  11.9
+                ],
+                [
+                  5.300000000000001,
+                  12.3
+                ]
+              ],
+              "distance_km": 1.552417469626003,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 1.021414729853052,
+              "arrive_h": 1.0496405020280704,
+              "arrive_clock": "09:03",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P050-V01",
+              "path": [
+                [
+                  5.300000000000001,
+                  12.3
+                ],
+                [
+                  4.6000000000000005,
+                  10.700000000000001
+                ]
+              ],
+              "distance_km": 1.7464249196572978,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 1.1329738353614036,
+              "arrive_h": 1.164727015718809,
+              "arrive_clock": "09:10",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P061-V01",
+              "path": [
+                [
+                  4.6000000000000005,
+                  10.700000000000001
+                ],
+                [
+                  6.300000000000001,
+                  13.5
+                ]
+              ],
+              "distance_km": 3.275667870831839,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 1.2480603490521422,
+              "arrive_h": 1.3076179467036302,
+              "arrive_clock": "09:18",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P062-V01",
+              "path": [
+                [
+                  6.300000000000001,
+                  13.5
+                ],
+                [
+                  7.2,
+                  13.4
+                ]
+              ],
+              "distance_km": 0.9055385138137411,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 1.3909512800369634,
+              "arrive_h": 1.4074156166517586,
+              "arrive_clock": "09:24",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P063-V01",
+              "path": [
+                [
+                  7.2,
+                  13.4
+                ],
+                [
+                  8.700000000000001,
+                  12.9
+                ]
+              ],
+              "distance_km": 1.5811388300841904,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 1.4907489499850919,
+              "arrive_h": 1.5194969287138953,
+              "arrive_clock": "09:31",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P072-V01",
+              "path": [
+                [
+                  8.700000000000001,
+                  12.9
+                ],
+                [
+                  8.6,
+                  14.9
+                ]
+              ],
+              "distance_km": 2.0024984394500787,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 1.6028302620472286,
+              "arrive_h": 1.6392393245826846,
+              "arrive_clock": "09:38",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P071-V01",
+              "path": [
+                [
+                  8.6,
+                  14.9
+                ],
+                [
+                  7.300000000000001,
+                  15.100000000000001
+                ]
+              ],
+              "distance_km": 1.3152946437965896,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 1.7225726579160179,
+              "arrive_h": 1.7464871059850469,
+              "arrive_clock": "09:45",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P070-V01",
+              "path": [
+                [
+                  7.300000000000001,
+                  15.100000000000001
+                ],
+                [
+                  6.6000000000000005,
+                  15.100000000000001
+                ]
+              ],
+              "distance_km": 0.7000000000000002,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 1.8298204393183801,
+              "arrive_h": 1.8425477120456528,
+              "arrive_clock": "09:51",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P071-V02",
+              "path": [
+                [
+                  6.6000000000000005,
+                  15.100000000000001
+                ],
+                [
+                  7.300000000000001,
+                  15.100000000000001
+                ]
+              ],
+              "distance_km": 0.7000000000000002,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 1.925881045378986,
+              "arrive_h": 1.9386083181062588,
+              "arrive_clock": "09:56",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P069-V01",
+              "path": [
+                [
+                  7.300000000000001,
+                  15.100000000000001
+                ],
+                [
+                  5.7,
+                  15.4
+                ]
+              ],
+              "distance_km": 1.627882059609971,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 2.021941651439592,
+              "arrive_h": 2.0515395070688642,
+              "arrive_clock": "10:03",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P078-V01",
+              "path": [
+                [
+                  5.7,
+                  15.4
+                ],
+                [
+                  5.4,
+                  16.6
+                ]
+              ],
+              "distance_km": 1.2369316876852992,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 2.1348728404021977,
+              "arrive_h": 2.157362507451021,
+              "arrive_clock": "10:09",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P077-V01",
+              "path": [
+                [
+                  5.4,
+                  16.6
+                ],
+                [
+                  4.6000000000000005,
+                  17.2
+                ]
+              ],
+              "distance_km": 0.9999999999999986,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 2.2406958407843547,
+              "arrive_h": 2.2588776589661728,
+              "arrive_clock": "10:16",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P076-V02",
+              "path": [
+                [
+                  4.6000000000000005,
+                  17.2
+                ],
+                [
+                  3.5,
+                  17.7
+                ]
+              ],
+              "distance_km": 1.2083045973594577,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 2.3422109922995062,
+              "arrive_h": 2.364180166796951,
+              "arrive_clock": "10:22",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P085-V01",
+              "path": [
+                [
+                  3.5,
+                  17.7
+                ],
+                [
+                  3.8000000000000003,
+                  18.7
+                ]
+              ],
+              "distance_km": 1.044030650891055,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 2.4475135001302846,
+              "arrive_h": 2.466495875601031,
+              "arrive_clock": "10:28",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P084-V01",
+              "path": [
+                [
+                  3.8000000000000003,
+                  18.7
+                ],
+                [
+                  2.8000000000000003,
+                  18.900000000000002
+                ]
+              ],
+              "distance_km": 1.0198039027185575,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 2.5498292089343644,
+              "arrive_h": 2.5683710980747017,
+              "arrive_clock": "10:34",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P083-V01",
+              "path": [
+                [
+                  2.8000000000000003,
+                  18.900000000000002
+                ],
+                [
+                  1.4000000000000001,
+                  19.6
+                ]
+              ],
+              "distance_km": 1.5652475842498526,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 2.651704431408035,
+              "arrive_h": 2.680163478394396,
+              "arrive_clock": "10:41",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P082-V01",
+              "path": [
+                [
+                  1.4000000000000001,
+                  19.6
+                ],
+                [
+                  0.2,
+                  19.5
+                ]
+              ],
+              "distance_km": 1.2041594578792298,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 2.7634968117277294,
+              "arrive_h": 2.7853906200528065,
+              "arrive_clock": "10:47",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P091-V01",
+              "path": [
+                [
+                  0.2,
+                  19.5
+                ],
+                [
+                  0.8,
+                  21.1
+                ]
+              ],
+              "distance_km": 1.7088007490635075,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 2.86872395338614,
+              "arrive_h": 2.899793057914567,
+              "arrive_clock": "10:54",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P092-V01",
+              "path": [
+                [
+                  0.8,
+                  21.1
+                ],
+                [
+                  1.2000000000000002,
+                  21.700000000000003
+                ]
+              ],
+              "distance_km": 0.7211102550927991,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 2.9831263912479007,
+              "arrive_h": 2.9962374867950423,
+              "arrive_clock": "11:00",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P091-V02",
+              "path": [
+                [
+                  1.2000000000000002,
+                  21.700000000000003
+                ],
+                [
+                  0.8,
+                  21.1
+                ]
+              ],
+              "distance_km": 0.7211102550927991,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.079570820128376,
+              "arrive_h": 3.0926819156755174,
+              "arrive_clock": "11:06",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P092-V03",
+              "path": [
+                [
+                  0.8,
+                  21.1
+                ],
+                [
+                  1.2000000000000002,
+                  21.700000000000003
+                ]
+              ],
+              "distance_km": 0.7211102550927991,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.176015249008851,
+              "arrive_h": 3.1891263445559925,
+              "arrive_clock": "11:11",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P093-V01",
+              "path": [
+                [
+                  1.2000000000000002,
+                  21.700000000000003
+                ],
+                [
+                  2.2,
+                  21.0
+                ]
+              ],
+              "distance_km": 1.2206555615733719,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.272459677889326,
+              "arrive_h": 3.294653415372478,
+              "arrive_clock": "11:18",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P092-V02",
+              "path": [
+                [
+                  2.2,
+                  21.0
+                ],
+                [
+                  1.2000000000000002,
+                  21.700000000000003
+                ]
+              ],
+              "distance_km": 1.2206555615733719,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.3779867487058115,
+              "arrive_h": 3.4001804861889635,
+              "arrive_clock": "11:24",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P094-V01",
+              "path": [
+                [
+                  1.2000000000000002,
+                  21.700000000000003
+                ],
+                [
+                  3.4000000000000004,
+                  21.6
+                ]
+              ],
+              "distance_km": 2.202271554554524,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.483513819522297,
+              "arrive_h": 3.5235551205141973,
+              "arrive_clock": "11:31",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P095-V01",
+              "path": [
+                [
+                  3.4000000000000004,
+                  21.6
+                ],
+                [
+                  4.7,
+                  20.3
+                ]
+              ],
+              "distance_km": 1.838477631085024,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.6068884538475308,
+              "arrive_h": 3.6403153198672586,
+              "arrive_clock": "11:38",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P086-V01",
+              "path": [
+                [
+                  4.7,
+                  20.3
+                ],
+                [
+                  4.6000000000000005,
+                  19.5
+                ]
+              ],
+              "distance_km": 0.8062257748298556,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.723648653200592,
+              "arrive_h": 3.7383073036520442,
+              "arrive_clock": "11:44",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P087-V01",
+              "path": [
+                [
+                  4.6000000000000005,
+                  19.5
+                ],
+                [
+                  5.7,
+                  19.400000000000002
+                ]
+              ],
+              "distance_km": 1.1045361017187256,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.8216406369853777,
+              "arrive_h": 3.841723111562082,
+              "arrive_clock": "11:51",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P088-V02",
+              "path": [
+                [
+                  5.7,
+                  19.400000000000002
+                ],
+                [
+                  6.300000000000001,
+                  18.8
+                ]
+              ],
+              "distance_km": 0.8485281374238585,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.9250564448954153,
+              "arrive_h": 3.940484229212213,
+              "arrive_clock": "11:56",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P079-V01",
+              "path": [
+                [
+                  6.300000000000001,
+                  18.8
+                ],
+                [
+                  6.5,
+                  17.400000000000002
+                ]
+              ],
+              "distance_km": 1.4142135623730936,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.023817562545546,
+              "arrive_h": 4.049530536406875,
+              "arrive_clock": "12:03",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P080-V01",
+              "path": [
+                [
+                  6.5,
+                  17.400000000000002
+                ],
+                [
+                  7.300000000000001,
+                  16.1
+                ]
+              ],
+              "distance_km": 1.5264337522473759,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.132863869740208,
+              "arrive_h": 4.160617210690161,
+              "arrive_clock": "12:10",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P081-V01",
+              "path": [
+                [
+                  7.300000000000001,
+                  16.1
+                ],
+                [
+                  8.6,
+                  16.2
+                ]
+              ],
+              "distance_km": 1.3038404810405284,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.243950544023494,
+              "arrive_h": 4.267656734587867,
+              "arrive_clock": "12:16",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P090-V01",
+              "path": [
+                [
+                  8.6,
+                  16.2
+                ],
+                [
+                  8.5,
+                  19.400000000000002
+                ]
+              ],
+              "distance_km": 3.2015621187164274,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.3509900679212,
+              "arrive_h": 4.4092002882614985,
+              "arrive_clock": "12:25",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P089-V01",
+              "path": [
+                [
+                  8.5,
+                  19.400000000000002
+                ],
+                [
+                  7.7,
+                  19.3
+                ]
+              ],
+              "distance_km": 0.8062257748298549,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.4925336215948315,
+              "arrive_h": 4.507192272046283,
+              "arrive_clock": "12:30",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P090-V02",
+              "path": [
+                [
+                  7.7,
+                  19.3
+                ],
+                [
+                  8.5,
+                  19.400000000000002
+                ]
+              ],
+              "distance_km": 0.8062257748298549,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.590525605379616,
+              "arrive_h": 4.605184255831068,
+              "arrive_clock": "12:36",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P099-V01",
+              "path": [
+                [
+                  8.5,
+                  19.400000000000002
+                ],
+                [
+                  8.5,
+                  20.400000000000002
+                ]
+              ],
+              "distance_km": 1.0,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.688517589164401,
+              "arrive_h": 4.706699407346219,
+              "arrive_clock": "12:42",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P098-V01",
+              "path": [
+                [
+                  8.5,
+                  20.400000000000002
+                ],
+                [
+                  7.800000000000001,
+                  21.0
+                ]
+              ],
+              "distance_km": 0.9219544457292868,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.790032740679552,
+              "arrive_h": 4.806795548783721,
+              "arrive_clock": "12:48",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P097-V01",
+              "path": [
+                [
+                  7.800000000000001,
+                  21.0
+                ],
+                [
+                  6.6000000000000005,
+                  20.6
+                ]
+              ],
+              "distance_km": 1.2649110640673515,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.890128882117054,
+              "arrive_h": 4.913127265100097,
+              "arrive_clock": "12:55",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P096-V01",
+              "path": [
+                [
+                  6.6000000000000005,
+                  20.6
+                ],
+                [
+                  5.800000000000001,
+                  21.3
+                ]
+              ],
+              "distance_km": 1.0630145812734644,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.99646059843343,
+              "arrive_h": 5.015788136274765,
+              "arrive_clock": "13:01",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P094-V02",
+              "path": [
+                [
+                  5.800000000000001,
+                  21.3
+                ],
+                [
+                  3.4000000000000004,
+                  21.6
+                ]
+              ],
+              "distance_km": 2.418677324489565,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.099121469608098,
+              "arrive_h": 5.143097420962454,
+              "arrive_clock": "13:09",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P086-V02",
+              "path": [
+                [
+                  3.4000000000000004,
+                  21.6
+                ],
+                [
+                  4.6000000000000005,
+                  19.5
+                ]
+              ],
+              "distance_km": 2.418677324489566,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.226430754295787,
+              "arrive_h": 5.270406705650143,
+              "arrive_clock": "13:16",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P076-V01",
+              "path": [
+                [
+                  4.6000000000000005,
+                  19.5
+                ],
+                [
+                  3.5,
+                  17.7
+                ]
+              ],
+              "distance_km": 2.1095023109728994,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.353740038983476,
+              "arrive_h": 5.392094626455711,
+              "arrive_clock": "13:24",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P075-V01",
+              "path": [
+                [
+                  3.5,
+                  17.7
+                ],
+                [
+                  2.5,
+                  16.900000000000002
+                ]
+              ],
+              "distance_km": 1.280624847486568,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.475427959789044,
+              "arrive_h": 5.498712047925163,
+              "arrive_clock": "13:30",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P074-V01",
+              "path": [
+                [
+                  2.5,
+                  16.900000000000002
+                ],
+                [
+                  1.3,
+                  16.2
+                ]
+              ],
+              "distance_km": 1.3892443989449819,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.582045381258496,
+              "arrive_h": 5.6073043703302226,
+              "arrive_clock": "13:36",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P066-V03",
+              "path": [
+                [
+                  1.3,
+                  16.2
+                ],
+                [
+                  2.5,
+                  15.3
+                ]
+              ],
+              "distance_km": 1.4999999999999991,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.690637703663556,
+              "arrive_h": 5.717910430936283,
+              "arrive_clock": "13:43",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P065-V01",
+              "path": [
+                [
+                  2.5,
+                  15.3
+                ],
+                [
+                  1.6,
+                  14.700000000000001
+                ]
+              ],
+              "distance_km": 1.0816653826391964,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.801243764269616,
+              "arrive_h": 5.820910407590329,
+              "arrive_clock": "13:49",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P064-V02",
+              "path": [
+                [
+                  1.6,
+                  14.700000000000001
+                ],
+                [
+                  0.2,
+                  14.600000000000001
+                ]
+              ],
+              "distance_km": 1.4035668847618201,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.904243740923662,
+              "arrive_h": 5.929763138828423,
+              "arrive_clock": "13:56",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P073-V01",
+              "path": [
+                [
+                  0.2,
+                  14.600000000000001
+                ],
+                [
+                  0.5,
+                  17.7
+                ]
+              ],
+              "distance_km": 3.1144823004794855,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.013096472161756,
+              "arrive_h": 6.069723423079565,
+              "arrive_clock": "14:04",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P075-V02",
+              "path": [
+                [
+                  0.5,
+                  17.7
+                ],
+                [
+                  2.5,
+                  16.900000000000002
+                ]
+              ],
+              "distance_km": 2.1540659228538006,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.153056756412898,
+              "arrive_h": 6.192221591373876,
+              "arrive_clock": "14:12",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P067-V01",
+              "path": [
+                [
+                  2.5,
+                  16.900000000000002
+                ],
+                [
+                  3.8000000000000003,
+                  15.5
+                ]
+              ],
+              "distance_km": 1.9104973174542819,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.275554924707209,
+              "arrive_h": 6.310291239570014,
+              "arrive_clock": "14:19",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P068-V01",
+              "path": [
+                [
+                  3.8000000000000003,
+                  15.5
+                ],
+                [
+                  4.2,
+                  15.8
+                ]
+              ],
+              "distance_km": 0.5000000000000003,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.393624572903347,
+              "arrive_h": 6.402715481994256,
+              "arrive_clock": "14:24",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P066-V02",
+              "path": [
+                [
+                  4.2,
+                  15.8
+                ],
+                [
+                  2.5,
+                  15.3
+                ]
+              ],
+              "distance_km": 1.7720045146669352,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 6.486048815327589,
+              "arrive_h": 6.518267079230624,
+              "arrive_clock": "14:31",
+              "conflicts": [
+                "Z2"
+              ]
+            },
+            {
+              "task_id": "Case2-P064-V03",
+              "path": [
+                [
+                  2.5,
+                  15.3
+                ],
+                [
+                  0.2,
+                  14.600000000000001
+                ]
+              ],
+              "distance_km": 2.4041630560342613,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 6.601600412563957,
+              "arrive_h": 6.645312468128216,
+              "arrive_clock": "14:39",
+              "conflicts": [
+                "Z2"
+              ]
+            },
+            {
+              "task_id": "Case2-P048-V01",
+              "path": [
+                [
+                  0.2,
+                  14.600000000000001
+                ],
+                [
+                  2.5,
+                  10.200000000000001
+                ]
+              ],
+              "distance_km": 4.964876634922564,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.728645801461549,
+              "arrive_h": 6.818916285732868,
+              "arrive_clock": "14:49",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P035-V01",
+              "path": [
+                [
+                  2.5,
+                  10.200000000000001
+                ],
+                [
+                  7.800000000000001,
+                  6.7
+                ]
+              ],
+              "distance_km": 6.351377803280168,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 6.902249619066201,
+              "arrive_h": 7.017729215489477,
+              "arrive_clock": "15:01",
+              "conflicts": [
+                "Z1"
+              ]
+            },
+            {
+              "task_id": "Case2-P026-V02",
+              "path": [
+                [
+                  7.800000000000001,
+                  6.7
+                ],
+                [
+                  7.1000000000000005,
+                  5.7
+                ]
+              ],
+              "distance_km": 1.2206555615733703,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 7.10106254882281,
+              "arrive_h": 7.1232562863059625,
+              "arrive_clock": "15:07",
+              "conflicts": [
+                "Z1"
+              ]
+            },
+            {
+              "task_id": "Case2-P025-V03",
+              "path": [
+                [
+                  7.1000000000000005,
+                  5.7
+                ],
+                [
+                  6.4,
+                  5.0
+                ]
+              ],
+              "distance_km": 0.9899494936611668,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 7.206589619639296,
+              "arrive_h": 7.224588701342226,
+              "arrive_clock": "15:13",
+              "conflicts": [
+                "Z1"
+              ]
+            },
+            {
+              "task_id": "Case2-P023-V02",
+              "path": [
+                [
+                  6.4,
+                  5.0
+                ],
+                [
+                  4.7,
+                  4.6000000000000005
+                ]
+              ],
+              "distance_km": 1.746424919657298,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 7.307922034675559,
+              "arrive_h": 7.3396752150329645,
+              "arrive_clock": "15:20",
+              "conflicts": [
+                "Z1"
+              ]
+            },
+            {
+              "task_id": "Case2-P012-V01",
+              "path": [
+                [
+                  4.7,
+                  4.6000000000000005
+                ],
+                [
+                  2.3000000000000003,
+                  2.5
+                ]
+              ],
+              "distance_km": 3.189043743820395,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 7.4230085483662975,
+              "arrive_h": 7.480991161890305,
+              "arrive_clock": "15:29",
+              "conflicts": [
+                "Z1"
+              ]
+            },
+            {
+              "task_id": "Case2-P003-V03",
+              "path": [
+                [
+                  2.3000000000000003,
+                  2.5
+                ],
+                [
+                  2.4000000000000004,
+                  1.8
+                ]
+              ],
+              "distance_km": 0.7071067811865475,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.564324495223638,
+              "arrive_h": 7.577180982154303,
+              "arrive_clock": "15:35",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P001-V02",
+              "path": [
+                [
+                  2.4000000000000004,
+                  1.8
+                ],
+                [
+                  0.6000000000000001,
+                  0.4
+                ]
+              ],
+              "distance_km": 2.280350850198276,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.660514315487636,
+              "arrive_h": 7.701975240036695,
+              "arrive_clock": "15:42",
+              "conflicts": []
+            },
+            {
+              "task_id": "BASE_RETURN",
+              "path": [
+                [
+                  0.6000000000000001,
+                  0.4
+                ],
+                [
+                  0.0,
+                  0.0
+                ]
+              ],
+              "distance_km": 0.7211102550927979,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.7853085733700285,
+              "arrive_h": 7.7984196689171705,
+              "arrive_clock": "15:48",
+              "conflicts": []
+            }
+          ],
+          "errors": [
+            "service_in_zone:Case2-P049-V01:Z4",
+            "edge_infeasible:Case2-P060-V01",
+            "service_in_zone:Case2-P060-V01:Z4",
+            "edge_infeasible:Case2-P050-V01",
+            "service_in_zone:Case2-P050-V01:Z4",
+            "edge_infeasible:Case2-P061-V01",
+            "service_in_zone:Case2-P061-V01:Z4",
+            "edge_infeasible:Case2-P062-V01",
+            "service_in_zone:Case2-P062-V01:Z4",
+            "edge_infeasible:Case2-P063-V01",
+            "service_in_zone:Case2-P063-V01:Z4",
+            "edge_infeasible:Case2-P072-V01",
+            "service_in_zone:Case2-P072-V01:Z4",
+            "edge_infeasible:Case2-P071-V01",
+            "service_in_zone:Case2-P071-V01:Z4",
+            "edge_infeasible:Case2-P070-V01",
+            "service_in_zone:Case2-P070-V01:Z4",
+            "edge_infeasible:Case2-P071-V02",
+            "service_in_zone:Case2-P071-V02:Z4",
+            "edge_infeasible:Case2-P069-V01",
+            "service_in_zone:Case2-P069-V01:Z4",
+            "edge_infeasible:Case2-P078-V01",
+            "service_in_zone:Case2-P078-V01:Z4",
+            "edge_infeasible:Case2-P077-V01",
+            "service_in_zone:Case2-P077-V01:Z4",
+            "edge_infeasible:Case2-P076-V02",
+            "service_in_zone:Case2-P076-V02:Z4",
+            "edge_infeasible:Case2-P085-V01",
+            "service_in_zone:Case2-P085-V01:Z4",
+            "edge_infeasible:Case2-P084-V01",
+            "service_in_zone:Case2-P084-V01:Z4",
+            "edge_infeasible:Case2-P083-V01",
+            "edge_infeasible:Case2-P066-V02",
+            "service_in_zone:Case2-P066-V02:Z2",
+            "edge_infeasible:Case2-P064-V03",
+            "edge_infeasible:Case2-P035-V01",
+            "service_in_zone:Case2-P035-V01:Z1",
+            "edge_infeasible:Case2-P026-V02",
+            "service_in_zone:Case2-P026-V02:Z1",
+            "edge_infeasible:Case2-P025-V03",
+            "service_in_zone:Case2-P025-V03:Z1",
+            "edge_infeasible:Case2-P023-V02",
+            "service_in_zone:Case2-P023-V02:Z1",
+            "edge_infeasible:Case2-P012-V01"
+          ],
+          "valid": false
+        },
+        {
+          "distance_km": 103.64248419880848,
+          "flight_h": 1.8844088036146995,
+          "service_h": 5.916666666666666,
+          "wait_h": 2.3377523876466015,
+          "detour_km": 0.0,
+          "work_h": 10.138827857927966,
+          "finish_clock": "18:08",
+          "legs": [
+            {
+              "task_id": "Case2-P001-V03",
+              "path": [
+                [
+                  0.0,
+                  0.0
+                ],
+                [
+                  0.6000000000000001,
+                  0.4
+                ]
+              ],
+              "distance_km": 0.7211102550927979,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.0,
+              "arrive_h": 0.01311109554714178,
+              "arrive_clock": "08:01",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P002-V01",
+              "path": [
+                [
+                  0.6000000000000001,
+                  0.4
+                ],
+                [
+                  1.5,
+                  1.5
+                ]
+              ],
+              "distance_km": 1.4212670403551895,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.09644442888047511,
+              "arrive_h": 0.12228564779602401,
+              "arrive_clock": "08:07",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P003-V01",
+              "path": [
+                [
+                  1.5,
+                  1.5
+                ],
+                [
+                  2.4000000000000004,
+                  1.8
+                ]
+              ],
+              "distance_km": 0.9486832980505141,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.20561898112935734,
+              "arrive_h": 0.2228677683666394,
+              "arrive_clock": "08:13",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P012-V02",
+              "path": [
+                [
+                  2.4000000000000004,
+                  1.8
+                ],
+                [
+                  2.3000000000000003,
+                  2.5
+                ]
+              ],
+              "distance_km": 0.7071067811865475,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.3062011016999727,
+              "arrive_h": 0.3190575886306372,
+              "arrive_clock": "08:19",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P011-V01",
+              "path": [
+                [
+                  2.3000000000000003,
+                  2.5
+                ],
+                [
+                  1.7000000000000002,
+                  2.6
+                ]
+              ],
+              "distance_km": 0.608276253029822,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.4023909219639705,
+              "arrive_h": 0.4134504902008764,
+              "arrive_clock": "08:25",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P010-V01",
+              "path": [
+                [
+                  1.7000000000000002,
+                  2.6
+                ],
+                [
+                  0.6000000000000001,
+                  2.1
+                ]
+              ],
+              "distance_km": 1.2083045973594573,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.4967838235342097,
+              "arrive_h": 0.5187529980316543,
+              "arrive_clock": "08:31",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P020-V01",
+              "path": [
+                [
+                  0.6000000000000001,
+                  2.1
+                ],
+                [
+                  1.2000000000000002,
+                  4.4
+                ]
+              ],
+              "distance_km": 2.3769728648009427,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.6020863313649877,
+              "arrive_h": 0.6453040198159139,
+              "arrive_clock": "08:39",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P019-V01",
+              "path": [
+                [
+                  1.2000000000000002,
+                  4.4
+                ],
+                [
+                  0.30000000000000004,
+                  5.300000000000001
+                ]
+              ],
+              "distance_km": 1.272792206135786,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.7286373531492473,
+              "arrive_h": 0.7517790296244434,
+              "arrive_clock": "08:45",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P028-V01",
+              "path": [
+                [
+                  0.30000000000000004,
+                  5.300000000000001
+                ],
+                [
+                  0.4,
+                  7.2
+                ]
+              ],
+              "distance_km": 1.9026297590440442,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.8351123629577768,
+              "arrive_h": 0.8697056313040321,
+              "arrive_clock": "08:52",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P037-V01",
+              "path": [
+                [
+                  0.4,
+                  7.2
+                ],
+                [
+                  0.7000000000000001,
+                  8.1
+                ]
+              ],
+              "distance_km": 0.9486832980505133,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 0.9530389646373655,
+              "arrive_h": 0.9702877518746476,
+              "arrive_clock": "08:58",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P029-V01",
+              "path": [
+                [
+                  0.7000000000000001,
+                  8.1
+                ],
+                [
+                  1.5,
+                  7.800000000000001
+                ]
+              ],
+              "distance_km": 0.8544003745317527,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 1.0536210852079808,
+              "arrive_h": 1.0691556374721944,
+              "arrive_clock": "09:04",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P030-V01",
+              "path": [
+                [
+                  1.5,
+                  7.800000000000001
+                ],
+                [
+                  2.2,
+                  7.0
+                ]
+              ],
+              "distance_km": 1.0630145812734655,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 1.1524889708055277,
+              "arrive_h": 1.1718165086468635,
+              "arrive_clock": "09:10",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P031-V01",
+              "path": [
+                [
+                  2.2,
+                  7.0
+                ],
+                [
+                  3.4000000000000004,
+                  7.1000000000000005
+                ]
+              ],
+              "distance_km": 1.2041594578792298,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 1.2551498419801967,
+              "arrive_h": 1.2770436503052736,
+              "arrive_clock": "09:17",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P032-V01",
+              "path": [
+                [
+                  3.4000000000000004,
+                  7.1000000000000005
+                ],
+                [
+                  4.2,
+                  7.9
+                ]
+              ],
+              "distance_km": 1.1313708498984758,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 1.3603769836386068,
+              "arrive_h": 1.38094736272767,
+              "arrive_clock": "09:23",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P041-V01",
+              "path": [
+                [
+                  4.2,
+                  7.9
+                ],
+                [
+                  4.3,
+                  8.8
+                ]
+              ],
+              "distance_km": 0.905538513813742,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 1.4642806960610033,
+              "arrive_h": 1.4807450326757987,
+              "arrive_clock": "09:29",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P040-V01",
+              "path": [
+                [
+                  4.3,
+                  8.8
+                ],
+                [
+                  3.2,
+                  9.700000000000001
+                ]
+              ],
+              "distance_km": 1.4212670403551895,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 1.564078366009132,
+              "arrive_h": 1.5899195849246808,
+              "arrive_clock": "09:35",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P039-V01",
+              "path": [
+                [
+                  3.2,
+                  9.700000000000001
+                ],
+                [
+                  2.6,
+                  9.8
+                ]
+              ],
+              "distance_km": 0.608276253029822,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 1.673252918258014,
+              "arrive_h": 1.68431248649492,
+              "arrive_clock": "09:41",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P038-V02",
+              "path": [
+                [
+                  2.6,
+                  9.8
+                ],
+                [
+                  1.7000000000000002,
+                  9.5
+                ]
+              ],
+              "distance_km": 0.948683298050514,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 1.7676458198282532,
+              "arrive_h": 1.7848946070655354,
+              "arrive_clock": "09:47",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P048-V02",
+              "path": [
+                [
+                  1.7000000000000002,
+                  9.5
+                ],
+                [
+                  2.5,
+                  10.200000000000001
+                ]
+              ],
+              "distance_km": 1.0630145812734655,
+              "wait_h": 1.6317720596011314,
+              "action": "wait",
+              "depart_h": 3.5,
+              "arrive_h": 3.5193275378413356,
+              "arrive_clock": "11:31",
+              "conflicts": [
+                "Z4"
+              ]
+            },
+            {
+              "task_id": "Case2-P038-V03",
+              "path": [
+                [
+                  2.5,
+                  10.200000000000001
+                ],
+                [
+                  1.7000000000000002,
+                  9.5
+                ]
+              ],
+              "distance_km": 1.0630145812734655,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.602660871174669,
+              "arrive_h": 3.6219884090160046,
+              "arrive_clock": "11:37",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P047-V01",
+              "path": [
+                [
+                  1.7000000000000002,
+                  9.5
+                ],
+                [
+                  1.3,
+                  11.100000000000001
+                ]
+              ],
+              "distance_km": 1.6492422502470656,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.705321742349338,
+              "arrive_h": 3.7353079650811027,
+              "arrive_clock": "11:44",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P046-V01",
+              "path": [
+                [
+                  1.3,
+                  11.100000000000001
+                ],
+                [
+                  0.5,
+                  10.9
+                ]
+              ],
+              "distance_km": 0.8246211251235324,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.8186412984144362,
+              "arrive_h": 3.8336344097803186,
+              "arrive_clock": "11:50",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P064-V01",
+              "path": [
+                [
+                  0.5,
+                  10.9
+                ],
+                [
+                  0.2,
+                  14.600000000000001
+                ]
+              ],
+              "distance_km": 3.7121422386541183,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 3.916967743113652,
+              "arrive_h": 3.984461238361909,
+              "arrive_clock": "11:59",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P066-V01",
+              "path": [
+                [
+                  0.2,
+                  14.600000000000001
+                ],
+                [
+                  2.5,
+                  15.3
+                ]
+              ],
+              "distance_km": 2.4041630560342613,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.067794571695242,
+              "arrive_h": 4.111506627259502,
+              "arrive_clock": "12:07",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P087-V02",
+              "path": [
+                [
+                  2.5,
+                  15.3
+                ],
+                [
+                  5.7,
+                  19.400000000000002
+                ]
+              ],
+              "distance_km": 5.2009614495783385,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.194839960592835,
+              "arrive_h": 4.2894028960397135,
+              "arrive_clock": "12:17",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P088-V01",
+              "path": [
+                [
+                  5.7,
+                  19.400000000000002
+                ],
+                [
+                  6.300000000000001,
+                  18.8
+                ]
+              ],
+              "distance_km": 0.8485281374238585,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.3727362293730465,
+              "arrive_h": 4.388164013689844,
+              "arrive_clock": "12:23",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P079-V02",
+              "path": [
+                [
+                  6.300000000000001,
+                  18.8
+                ],
+                [
+                  6.5,
+                  17.400000000000002
+                ]
+              ],
+              "distance_km": 1.4142135623730936,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.471497347023177,
+              "arrive_h": 4.497210320884506,
+              "arrive_clock": "12:30",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P071-V03",
+              "path": [
+                [
+                  6.5,
+                  17.400000000000002
+                ],
+                [
+                  7.300000000000001,
+                  15.100000000000001
+                ]
+              ],
+              "distance_km": 2.435159132377185,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.580543654217839,
+              "arrive_h": 4.624819274806515,
+              "arrive_clock": "12:37",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P050-V02",
+              "path": [
+                [
+                  7.300000000000001,
+                  15.100000000000001
+                ],
+                [
+                  4.6000000000000005,
+                  10.700000000000001
+                ]
+              ],
+              "distance_km": 5.162363799656123,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.708152608139848,
+              "arrive_h": 4.8020137681335955,
+              "arrive_clock": "12:48",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P051-V01",
+              "path": [
+                [
+                  4.6000000000000005,
+                  10.700000000000001
+                ],
+                [
+                  5.800000000000001,
+                  11.0
+                ]
+              ],
+              "distance_km": 1.236931687685298,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.8853471014669285,
+              "arrive_h": 4.907836768515752,
+              "arrive_clock": "12:54",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P053-V02",
+              "path": [
+                [
+                  5.800000000000001,
+                  11.0
+                ],
+                [
+                  7.4,
+                  11.3
+                ]
+              ],
+              "distance_km": 1.6278820596099703,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 4.991170101849085,
+              "arrive_h": 5.020767957478357,
+              "arrive_clock": "13:01",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P052-V01",
+              "path": [
+                [
+                  7.4,
+                  11.3
+                ],
+                [
+                  6.7,
+                  11.0
+                ]
+              ],
+              "distance_km": 0.7615773105863912,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.10410129081169,
+              "arrive_h": 5.11794815100417,
+              "arrive_clock": "13:07",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P053-V01",
+              "path": [
+                [
+                  6.7,
+                  11.0
+                ],
+                [
+                  7.4,
+                  11.3
+                ]
+              ],
+              "distance_km": 0.7615773105863912,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.201281484337503,
+              "arrive_h": 5.215128344529983,
+              "arrive_clock": "13:13",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P054-V01",
+              "path": [
+                [
+                  7.4,
+                  11.3
+                ],
+                [
+                  8.8,
+                  11.0
+                ]
+              ],
+              "distance_km": 1.431782106327636,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.298461677863316,
+              "arrive_h": 5.324494079796546,
+              "arrive_clock": "13:19",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P045-V01",
+              "path": [
+                [
+                  8.8,
+                  11.0
+                ],
+                [
+                  8.3,
+                  9.8
+                ]
+              ],
+              "distance_km": 1.2999999999999994,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.407827413129879,
+              "arrive_h": 5.431463776766242,
+              "arrive_clock": "13:26",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P044-V01",
+              "path": [
+                [
+                  8.3,
+                  9.8
+                ],
+                [
+                  7.800000000000001,
+                  8.3
+                ]
+              ],
+              "distance_km": 1.5811388300841898,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.514797110099575,
+              "arrive_h": 5.543545088828379,
+              "arrive_clock": "13:33",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P034-V02",
+              "path": [
+                [
+                  7.800000000000001,
+                  8.3
+                ],
+                [
+                  6.6000000000000005,
+                  7.9
+                ]
+              ],
+              "distance_km": 1.264911064067352,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.626878422161712,
+              "arrive_h": 5.649876805144755,
+              "arrive_clock": "13:39",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P042-V02",
+              "path": [
+                [
+                  6.6000000000000005,
+                  7.9
+                ],
+                [
+                  5.7,
+                  8.9
+                ]
+              ],
+              "distance_km": 1.3453624047073713,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.733210138478088,
+              "arrive_h": 5.757671273109131,
+              "arrive_clock": "13:45",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P034-V01",
+              "path": [
+                [
+                  5.7,
+                  8.9
+                ],
+                [
+                  6.6000000000000005,
+                  7.9
+                ]
+              ],
+              "distance_km": 1.3453624047073713,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.841004606442464,
+              "arrive_h": 5.865465741073507,
+              "arrive_clock": "13:52",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P033-V01",
+              "path": [
+                [
+                  6.6000000000000005,
+                  7.9
+                ],
+                [
+                  5.4,
+                  7.7
+                ]
+              ],
+              "distance_km": 1.216552506059644,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 5.94879907440684,
+              "arrive_h": 5.970918210880652,
+              "arrive_clock": "13:58",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P042-V01",
+              "path": [
+                [
+                  5.4,
+                  7.7
+                ],
+                [
+                  5.7,
+                  8.9
+                ]
+              ],
+              "distance_km": 1.2369316876852983,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.054251544213985,
+              "arrive_h": 6.076741211262808,
+              "arrive_clock": "14:05",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P043-V01",
+              "path": [
+                [
+                  5.7,
+                  8.9
+                ],
+                [
+                  6.4,
+                  8.5
+                ]
+              ],
+              "distance_km": 0.8062257748298552,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.160074544596141,
+              "arrive_h": 6.174733195047593,
+              "arrive_clock": "14:10",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P042-V03",
+              "path": [
+                [
+                  6.4,
+                  8.5
+                ],
+                [
+                  5.7,
+                  8.9
+                ]
+              ],
+              "distance_km": 0.8062257748298552,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.258066528380926,
+              "arrive_h": 6.272725178832378,
+              "arrive_clock": "14:16",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P033-V02",
+              "path": [
+                [
+                  5.7,
+                  8.9
+                ],
+                [
+                  5.4,
+                  7.7
+                ]
+              ],
+              "distance_km": 1.2369316876852983,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.356058512165711,
+              "arrive_h": 6.378548179214534,
+              "arrive_clock": "14:23",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P025-V01",
+              "path": [
+                [
+                  5.4,
+                  7.7
+                ],
+                [
+                  6.4,
+                  5.0
+                ]
+              ],
+              "distance_km": 2.879236009777594,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.461881512547867,
+              "arrive_h": 6.514231258180187,
+              "arrive_clock": "14:31",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P024-V01",
+              "path": [
+                [
+                  6.4,
+                  5.0
+                ],
+                [
+                  5.5,
+                  5.2
+                ]
+              ],
+              "distance_km": 0.9219544457292891,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.59756459151352,
+              "arrive_h": 6.6143273996176895,
+              "arrive_clock": "14:37",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P025-V02",
+              "path": [
+                [
+                  5.5,
+                  5.2
+                ],
+                [
+                  6.4,
+                  5.0
+                ]
+              ],
+              "distance_km": 0.9219544457292891,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.6976607329510225,
+              "arrive_h": 6.714423541055192,
+              "arrive_clock": "14:43",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P026-V01",
+              "path": [
+                [
+                  6.4,
+                  5.0
+                ],
+                [
+                  7.1000000000000005,
+                  5.7
+                ]
+              ],
+              "distance_km": 0.9899494936611668,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.797756874388525,
+              "arrive_h": 6.815755956091455,
+              "arrive_clock": "14:49",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P035-V02",
+              "path": [
+                [
+                  7.1000000000000005,
+                  5.7
+                ],
+                [
+                  7.800000000000001,
+                  6.7
+                ]
+              ],
+              "distance_km": 1.2206555615733703,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 6.899089289424788,
+              "arrive_h": 6.921283026907941,
+              "arrive_clock": "14:55",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P036-V01",
+              "path": [
+                [
+                  7.800000000000001,
+                  6.7
+                ],
+                [
+                  8.700000000000001,
+                  7.300000000000001
+                ]
+              ],
+              "distance_km": 1.0816653826391973,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 7.004616360241274,
+              "arrive_h": 7.024283003561987,
+              "arrive_clock": "15:01",
+              "conflicts": [
+                "Z1"
+              ]
+            },
+            {
+              "task_id": "Case2-P027-V01",
+              "path": [
+                [
+                  8.700000000000001,
+                  7.300000000000001
+                ],
+                [
+                  8.700000000000001,
+                  5.7
+                ]
+              ],
+              "distance_km": 1.6000000000000005,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 7.10761633689532,
+              "arrive_h": 7.136707245986229,
+              "arrive_clock": "15:08",
+              "conflicts": [
+                "Z1"
+              ]
+            },
+            {
+              "task_id": "Case2-P017-V02",
+              "path": [
+                [
+                  8.700000000000001,
+                  5.7
+                ],
+                [
+                  7.800000000000001,
+                  3.9000000000000004
+                ]
+              ],
+              "distance_km": 2.0124611797498106,
+              "wait_h": 0.0,
+              "action": "infeasible",
+              "depart_h": 7.220040579319562,
+              "arrive_h": 7.256630782587741,
+              "arrive_clock": "15:15",
+              "conflicts": [
+                "Z1"
+              ]
+            },
+            {
+              "task_id": "Case2-P018-V01",
+              "path": [
+                [
+                  7.800000000000001,
+                  3.9000000000000004
+                ],
+                [
+                  8.700000000000001,
+                  3.5
+                ]
+              ],
+              "distance_km": 0.9848857801796109,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.339964115921074,
+              "arrive_h": 7.357871130106157,
+              "arrive_clock": "15:21",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P017-V01",
+              "path": [
+                [
+                  8.700000000000001,
+                  3.5
+                ],
+                [
+                  7.800000000000001,
+                  3.9000000000000004
+                ]
+              ],
+              "distance_km": 0.9848857801796109,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.44120446343949,
+              "arrive_h": 7.459111477624574,
+              "arrive_clock": "15:28",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P009-V01",
+              "path": [
+                [
+                  7.800000000000001,
+                  3.9000000000000004
+                ],
+                [
+                  8.6,
+                  1.5
+                ]
+              ],
+              "distance_km": 2.5298221281347035,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.542444810957907,
+              "arrive_h": 7.588441576923993,
+              "arrive_clock": "15:35",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P008-V01",
+              "path": [
+                [
+                  8.6,
+                  1.5
+                ],
+                [
+                  7.7,
+                  1.0
+                ]
+              ],
+              "distance_km": 1.0295630140986995,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.671774910257326,
+              "arrive_h": 7.6904942377863925,
+              "arrive_clock": "15:41",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P007-V01",
+              "path": [
+                [
+                  7.7,
+                  1.0
+                ],
+                [
+                  6.7,
+                  1.0
+                ]
+              ],
+              "distance_km": 1.0,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.7738275711197256,
+              "arrive_h": 7.792009389301544,
+              "arrive_clock": "15:48",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P006-V01",
+              "path": [
+                [
+                  6.7,
+                  1.0
+                ],
+                [
+                  5.7,
+                  1.4000000000000001
+                ]
+              ],
+              "distance_km": 1.0770329614269007,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.875342722634877,
+              "arrive_h": 7.894925140115366,
+              "arrive_clock": "15:54",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P005-V01",
+              "path": [
+                [
+                  5.7,
+                  1.4000000000000001
+                ],
+                [
+                  4.800000000000001,
+                  1.2000000000000002
+                ]
+              ],
+              "distance_km": 0.9219544457292882,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 7.978258473448699,
+              "arrive_h": 7.9950212815528685,
+              "arrive_clock": "16:00",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P014-V01",
+              "path": [
+                [
+                  4.800000000000001,
+                  1.2000000000000002
+                ],
+                [
+                  4.3,
+                  2.3000000000000003
+                ]
+              ],
+              "distance_km": 1.2083045973594577,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 8.078354614886202,
+              "arrive_h": 8.100323789383646,
+              "arrive_clock": "16:06",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P004-V01",
+              "path": [
+                [
+                  4.3,
+                  2.3000000000000003
+                ],
+                [
+                  3.3000000000000003,
+                  1.2000000000000002
+                ]
+              ],
+              "distance_km": 1.4866068747318504,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 8.18365712271698,
+              "arrive_h": 8.210686338621196,
+              "arrive_clock": "16:13",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P013-V01",
+              "path": [
+                [
+                  3.3000000000000003,
+                  1.2000000000000002
+                ],
+                [
+                  3.2,
+                  3.5
+                ]
+              ],
+              "distance_km": 2.3021728866442674,
+              "wait_h": 0.7059803280454702,
+              "action": "wait",
+              "depart_h": 9.0,
+              "arrive_h": 9.041857688848078,
+              "arrive_clock": "17:03",
+              "conflicts": [
+                "Z1"
+              ]
+            },
+            {
+              "task_id": "Case2-P022-V01",
+              "path": [
+                [
+                  3.2,
+                  3.5
+                ],
+                [
+                  3.3000000000000003,
+                  4.9
+                ]
+              ],
+              "distance_km": 1.4035668847618203,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 9.125191022181411,
+              "arrive_h": 9.150710420086172,
+              "arrive_clock": "17:09",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P021-V01",
+              "path": [
+                [
+                  3.3000000000000003,
+                  4.9
+                ],
+                [
+                  2.8000000000000003,
+                  5.300000000000001
+                ]
+              ],
+              "distance_km": 0.6403124237432851,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 9.234043753419506,
+              "arrive_h": 9.245685797487566,
+              "arrive_clock": "17:15",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P023-V01",
+              "path": [
+                [
+                  2.8000000000000003,
+                  5.300000000000001
+                ],
+                [
+                  4.7,
+                  4.6000000000000005
+                ]
+              ],
+              "distance_km": 2.024845673131659,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 9.3290191308209,
+              "arrive_h": 9.365834506696022,
+              "arrive_clock": "17:22",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P015-V01",
+              "path": [
+                [
+                  4.7,
+                  4.6000000000000005
+                ],
+                [
+                  5.5,
+                  3.5
+                ]
+              ],
+              "distance_km": 1.3601470508735447,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 9.449167840029356,
+              "arrive_h": 9.473897786408875,
+              "arrive_clock": "17:28",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P016-V01",
+              "path": [
+                [
+                  5.5,
+                  3.5
+                ],
+                [
+                  6.5,
+                  3.6
+                ]
+              ],
+              "distance_km": 1.004987562112089,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 9.557231119742209,
+              "arrive_h": 9.575503620871519,
+              "arrive_clock": "17:35",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P015-V02",
+              "path": [
+                [
+                  6.5,
+                  3.6
+                ],
+                [
+                  5.5,
+                  3.5
+                ]
+              ],
+              "distance_km": 1.004987562112089,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 9.658836954204853,
+              "arrive_h": 9.677109455334163,
+              "arrive_clock": "17:41",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P012-V03",
+              "path": [
+                [
+                  5.5,
+                  3.5
+                ],
+                [
+                  2.3000000000000003,
+                  2.5
+                ]
+              ],
+              "distance_km": 3.352610922848042,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 9.760442788667497,
+              "arrive_h": 9.821399350901098,
+              "arrive_clock": "17:49",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P003-V02",
+              "path": [
+                [
+                  2.3000000000000003,
+                  2.5
+                ],
+                [
+                  2.4000000000000004,
+                  1.8
+                ]
+              ],
+              "distance_km": 0.7071067811865475,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 9.904732684234432,
+              "arrive_h": 9.917589171165096,
+              "arrive_clock": "17:55",
+              "conflicts": []
+            },
+            {
+              "task_id": "Case2-P001-V01",
+              "path": [
+                [
+                  2.4000000000000004,
+                  1.8
+                ],
+                [
+                  0.6000000000000001,
+                  0.4
+                ]
+              ],
+              "distance_km": 2.280350850198276,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 10.00092250449843,
+              "arrive_h": 10.04238342904749,
+              "arrive_clock": "18:03",
+              "conflicts": []
+            },
+            {
+              "task_id": "BASE_RETURN",
+              "path": [
+                [
+                  0.6000000000000001,
+                  0.4
+                ],
+                [
+                  0.0,
+                  0.0
+                ]
+              ],
+              "distance_km": 0.7211102550927979,
+              "wait_h": 0.0,
+              "action": "direct",
+              "depart_h": 10.125716762380824,
+              "arrive_h": 10.138827857927966,
+              "arrive_clock": "18:08",
+              "conflicts": []
+            }
+          ],
+          "errors": [
+            "service_in_zone:Case2-P035-V02:Z1",
+            "edge_infeasible:Case2-P036-V01",
+            "service_in_zone:Case2-P036-V01:Z1",
+            "edge_infeasible:Case2-P027-V01",
+            "service_in_zone:Case2-P027-V01:Z1",
+            "edge_infeasible:Case2-P017-V02"
+          ],
+          "valid": false
+        }
+      ],
+      "Tmax_h": 10.138827857927966,
+      "Tmin_h": 7.7984196689171705,
+      "delta_h": 2.3404081890107955,
+      "total_distance_km": 220.88889932258664,
+      "total_wait_h": 2.3377523876466015,
+      "total_detour_km": 0.0
+    }
+  },
+  "inherited_static_Tmax_h": 7.801075470281366
+}

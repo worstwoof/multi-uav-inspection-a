@@ -1,0 +1,86 @@
+\section{问题一：最低可行机队与最大工作时间}
+
+\subsection{任务展开与有效到达约束}
+
+设物理点 $i$ 的巡检等级对应需求次数为 $r_i$，则
+\[
+r_i=\begin{cases}3,&i\text{ 为 I 级点},\\2,&i\text{ 为 II 级点},\\1,&i\text{ 为 III 级点}.
+\end{cases}
+\]
+将点 $i$ 展开为任务集合 $\{(i,q):q=1,\ldots,r_i\}$，每个任务具有唯一的 \texttt{task\_id} 和服务时间 $s$。令 $\ell(m)$ 表示任务 $m$ 所属物理点。对同一无人机的相邻任务 $m,n$，加入
+\[
+\ell(m)\neq \ell(n),
+\]
+从而排除连续重复点造成的伪到达。每个任务恰好分配给一架无人机，全部路线均以基地节点 $0$ 开始并返回基地。
+
+\subsection{目标函数与约束}
+
+令 $x_{mk}\in\{0,1\}$ 表示任务 $m$ 是否由无人机 $k$ 执行，$y_{abk}\in\{0,1\}$ 表示无人机 $k$ 是否走边 $a\to b$。任务覆盖约束为
+\[
+\sum_{k=1}^{N}x_{mk}=1,\qquad \forall m\in\mathcal M.
+\]
+路线的流守恒、基地出发和基地返回约束保证每架无人机形成闭环，并用次序变量消除不含基地的子回路。设无人机 $k$ 的任务数为 $n_k$、总距离为 $D_k$，其工作时间为
+\[
+T_k=\frac{D_k}{v}+n_ks.
+\]
+硬约束为
+\[
+T_k\leq H=9,\qquad \forall k.
+\]
+
+问题一属于带统一基地、重复任务和最大工时约束的车辆路径问题\cite{dantzig1959}，采用两层决策。首先以总服务时间和最远点往返时间给出理论下界：
+\[
+N_{\mathrm{LB}}^{\mathrm{svc}}
+=\left\lceil\frac{|\mathcal M|s}{H}\right\rceil,
+\qquad
+N_{\mathrm{LB}}^{\mathrm{work}}
+=\left\lceil\frac{|\mathcal M|s+2d_{\max}/v}{H}\right\rceil,
+\]
+其中 $d_{\max}=\max_i d_{0i}$。从 $N=\max(N_{\mathrm{LB}}^{\mathrm{svc}},N_{\mathrm{LB}}^{\mathrm{work}})$ 起逐一增加机队，首次经独立验证器通过的数量记为 $N_{\min}^{\mathrm{verified}}$。在该机队固定后，再求
+\[
+\min C,\qquad C=\max_{k=1,\ldots,N}T_k.
+\]
+理论下界只排除了工作量不足的机队，并不等同于最低可行机队。
+
+\subsection{求解流程}
+
+主要求解采用可行优先的多起点启发式。先按边际插入代价构造闭环，再以 relocate、swap 和 2-opt 修复超时路线；候选解按“任务遗漏/重复、超时总量、$C$、总距离”的字典序比较。每个候选均重新计算有效到达段、路线距离和工作时间。图~\ref{fig:flowq1} 给出流程。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.88\textwidth]{fig_flow_q1.pdf}
+\caption{问题一求解流程}
+\label{fig:flowq1}
+\end{figure}
+
+\subsection{问题一结果}
+
+表~\ref{tab:q1-results} 为四个 Case 的正式结果。\texttt{best\_verified} 表示在固定种子和给定搜索配置下得到的最好已验证解，不表示已经获得全局最优性证书。
+
+\begin{table}[H]
+\centering
+\small
+\caption{问题一四个 Case 的最好已验证结果}
+\label{tab:q1-results}
+\begin{tabular}{lrrrrrr}
+\toprule
+Case & 理论下界 & UAV 数 & $C$/h & $L$/h & $\delta$/h & 距离/km \\
+\midrule
+Case1 & 2 & 5 & 8.7129 & 8.4955 & 0.2174 & 2040.643 \\
+Case2 & 2 & 2 & 7.9583 & 7.9202 & 0.0382 & 236.233 \\
+Case3 & 2 & 6 & 8.6125 & 8.5326 & 0.0799 & 2189.495 \\
+Case4 & 3 & 5 & 8.1378 & 7.7700 & 0.3678 & 1371.655 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+四个正式结果的等待时间和绕行距离均为 0，任务覆盖、有效到达段、基地闭环和 $9\ \mathrm{h}$ 上限均通过验证。Case1、Case3 和 Case4 的理论工作下界分别为 2 架，但首个已验证可行结果需要更多无人机，说明点位空间分布和基地往返距离会收紧可行性；该现象也说明不能把理论下界直接写成最低机队。
+
+四个 Case 的空间分配和基地闭环路线见图~\ref{fig:q1routes}。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{q1_routes.pdf}
+\caption{问题一四个 Case 的真实巡检路线}
+\label{fig:q1routes}
+\end{figure}

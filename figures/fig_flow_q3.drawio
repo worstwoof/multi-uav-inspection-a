@@ -1,0 +1,37 @@
+<mxfile host="app.diagrams.net" modified="2026-08-19T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="flowq3" name="问题三动态禁飞流程">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1700" pageHeight="1000">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="问题三：动态禁飞区的几何—时间联合处理" style="text;html=1;fontSize=20;fontStyle=1;fontFamily=Noto Sans SC;fontColor=#25364A" vertex="1" parent="1"><mxGeometry x="570" y="25" width="560" height="35" as="geometry"/></mxCell>
+        <mxCell id="a" value="输入 q2 路线、禁飞圆参数与时间窗&lt;br&gt;t=0 为 8:00，窗口为 [t_s,t_e)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="40" y="170" width="245" height="100" as="geometry"/></mxCell>
+        <mxCell id="b" value="按边传播&lt;br&gt;从节点 a 在时刻 t 出发，计算直飞长度与时间" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="355" y="170" width="250" height="100" as="geometry"/></mxCell>
+        <mxCell id="c" value="线段与圆&lt;br&gt;几何相交？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FBE5E5;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="680" y="165" width="170" height="110" as="geometry"/></mxCell>
+        <mxCell id="d" value="[t_in,t_out] 与&lt;br&gt;[t_s,t_e) 重叠？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FBE5E5;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="920" y="165" width="190" height="110" as="geometry"/></mxCell>
+        <mxCell id="e" value="直飞并传播" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="1210" y="170" width="180" height="90" as="geometry"/></mxCell>
+        <mxCell id="f" value="动态冲突候选&lt;br&gt;安全等待 / 切线—圆弧绕行 / 调整任务顺序" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="850" y="390" width="300" height="105" as="geometry"/></mxCell>
+        <mxCell id="g" value="复核服务点与基地&lt;br&gt;服务、停留不能落在活动圆内" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8F7;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="470" y="390" width="250" height="105" as="geometry"/></mxCell>
+        <mxCell id="h" value="选最早安全到达&lt;br&gt;记录 path、wait、detour，更新时刻" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="120" y="390" width="260" height="105" as="geometry"/></mxCell>
+        <mxCell id="i" value="所有边与返回基地完成？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FBE5E5;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=12" vertex="1" parent="1"><mxGeometry x="280" y="610" width="205" height="105" as="geometry"/></mxCell>
+        <mxCell id="j" value="T_k≤9 h？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FBE5E5;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=12" vertex="1" parent="1"><mxGeometry x="650" y="610" width="170" height="105" as="geometry"/></mxCell>
+        <mxCell id="k" value="输出 q3 可行结果" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="980" y="620" width="210" height="80" as="geometry"/></mxCell>
+        <mxCell id="l" value="固定机队不可行：N←N+1，重新构造" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE5E5;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="960" y="790" width="280" height="80" as="geometry"/></mxCell>
+        <mxCell id="x1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="a" target="b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="b" target="c"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x3" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="c" target="d"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x4" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="c" target="e"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x5" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="d" target="e"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x6" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="d" target="f"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x7" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="e" target="g"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="f" target="g"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x9" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="g" target="h"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x10" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="h" target="i"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x11" value="否：下一条边" style="edgeStyle=orthogonalEdgeStyle;curved=1;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="i" target="b"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="170" y="665"/><mxPoint x="170" y="320"/></Array></mxGeometry></mxCell>
+        <mxCell id="x12" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="i" target="j"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x13" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="j" target="k"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x14" value="否：增加无人机" style="edgeStyle=orthogonalEdgeStyle;curved=1;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="j" target="l"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x15" style="edgeStyle=orthogonalEdgeStyle;curved=1;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="l" target="a"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="820" y="850"/><mxPoint x="30" y="850"/><mxPoint x="30" y="220"/></Array></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,1863 @@
+{
+  "case_id": "Case2",
+  "base": {
+    "x": 0.0,
+    "y": 0.0
+  },
+  "coordinate_scale_km": 0.1,
+  "speed_kmh": 55.0,
+  "service_hours": 0.08333333333333333,
+  "max_work_hours": 9.0,
+  "start_clock": "08:00",
+  "points": [
+    {
+      "point_id": "1",
+      "x": 0.6000000000000001,
+      "y": 0.4,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "2",
+      "x": 1.5,
+      "y": 1.5,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "3",
+      "x": 2.4000000000000004,
+      "y": 1.8,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "4",
+      "x": 3.3000000000000003,
+      "y": 1.2000000000000002,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "5",
+      "x": 4.800000000000001,
+      "y": 1.2000000000000002,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "6",
+      "x": 5.7,
+      "y": 1.4000000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "7",
+      "x": 6.7,
+      "y": 1.0,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "8",
+      "x": 7.7,
+      "y": 1.0,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "9",
+      "x": 8.6,
+      "y": 1.5,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "10",
+      "x": 0.6000000000000001,
+      "y": 2.1,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "11",
+      "x": 1.7000000000000002,
+      "y": 2.6,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "12",
+      "x": 2.3000000000000003,
+      "y": 2.5,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "13",
+      "x": 3.2,
+      "y": 3.5,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "14",
+      "x": 4.3,
+      "y": 2.3000000000000003,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "15",
+      "x": 5.5,
+      "y": 3.5,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "16",
+      "x": 6.5,
+      "y": 3.6,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "17",
+      "x": 7.800000000000001,
+      "y": 3.9000000000000004,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "18",
+      "x": 8.700000000000001,
+      "y": 3.5,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "19",
+      "x": 0.30000000000000004,
+      "y": 5.300000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "20",
+      "x": 1.2000000000000002,
+      "y": 4.4,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "21",
+      "x": 2.8000000000000003,
+      "y": 5.300000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "22",
+      "x": 3.3000000000000003,
+      "y": 4.9,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "23",
+      "x": 4.7,
+      "y": 4.6000000000000005,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "24",
+      "x": 5.5,
+      "y": 5.2,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "25",
+      "x": 6.4,
+      "y": 5.0,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "26",
+      "x": 7.1000000000000005,
+      "y": 5.7,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "27",
+      "x": 8.700000000000001,
+      "y": 5.7,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "28",
+      "x": 0.4,
+      "y": 7.2,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "29",
+      "x": 1.5,
+      "y": 7.800000000000001,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "30",
+      "x": 2.2,
+      "y": 7.0,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "31",
+      "x": 3.4000000000000004,
+      "y": 7.1000000000000005,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "32",
+      "x": 4.2,
+      "y": 7.9,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "33",
+      "x": 5.4,
+      "y": 7.7,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "34",
+      "x": 6.6000000000000005,
+      "y": 7.9,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "35",
+      "x": 7.800000000000001,
+      "y": 6.7,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "36",
+      "x": 8.700000000000001,
+      "y": 7.300000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "37",
+      "x": 0.7000000000000001,
+      "y": 8.1,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "38",
+      "x": 1.7000000000000002,
+      "y": 9.5,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "39",
+      "x": 2.6,
+      "y": 9.8,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "40",
+      "x": 3.2,
+      "y": 9.700000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "41",
+      "x": 4.3,
+      "y": 8.8,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "42",
+      "x": 5.7,
+      "y": 8.9,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "43",
+      "x": 6.4,
+      "y": 8.5,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "44",
+      "x": 7.800000000000001,
+      "y": 8.3,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "45",
+      "x": 8.3,
+      "y": 9.8,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "46",
+      "x": 0.5,
+      "y": 10.9,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "47",
+      "x": 1.3,
+      "y": 11.100000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "48",
+      "x": 2.5,
+      "y": 10.200000000000001,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "49",
+      "x": 3.8000000000000003,
+      "y": 11.9,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "50",
+      "x": 4.6000000000000005,
+      "y": 10.700000000000001,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "51",
+      "x": 5.800000000000001,
+      "y": 11.0,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "52",
+      "x": 6.7,
+      "y": 11.0,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "53",
+      "x": 7.4,
+      "y": 11.3,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "54",
+      "x": 8.8,
+      "y": 11.0,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "55",
+      "x": 0.2,
+      "y": 12.4,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "56",
+      "x": 1.7000000000000002,
+      "y": 13.4,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "57",
+      "x": 2.3000000000000003,
+      "y": 12.9,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "58",
+      "x": 3.6,
+      "y": 13.100000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "59",
+      "x": 4.2,
+      "y": 13.700000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "60",
+      "x": 5.300000000000001,
+      "y": 12.3,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "61",
+      "x": 6.300000000000001,
+      "y": 13.5,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "62",
+      "x": 7.2,
+      "y": 13.4,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "63",
+      "x": 8.700000000000001,
+      "y": 12.9,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "64",
+      "x": 0.2,
+      "y": 14.600000000000001,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "65",
+      "x": 1.6,
+      "y": 14.700000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "66",
+      "x": 2.5,
+      "y": 15.3,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "67",
+      "x": 3.8000000000000003,
+      "y": 15.5,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "68",
+      "x": 4.2,
+      "y": 15.8,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "69",
+      "x": 5.7,
+      "y": 15.4,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "70",
+      "x": 6.6000000000000005,
+      "y": 15.100000000000001,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "71",
+      "x": 7.300000000000001,
+      "y": 15.100000000000001,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "72",
+      "x": 8.6,
+      "y": 14.9,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "73",
+      "x": 0.5,
+      "y": 17.7,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "74",
+      "x": 1.3,
+      "y": 16.2,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "75",
+      "x": 2.5,
+      "y": 16.900000000000002,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "76",
+      "x": 3.5,
+      "y": 17.7,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "77",
+      "x": 4.6000000000000005,
+      "y": 17.2,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "78",
+      "x": 5.4,
+      "y": 16.6,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "79",
+      "x": 6.5,
+      "y": 17.400000000000002,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "80",
+      "x": 7.300000000000001,
+      "y": 16.1,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "81",
+      "x": 8.6,
+      "y": 16.2,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "82",
+      "x": 0.2,
+      "y": 19.5,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "83",
+      "x": 1.4000000000000001,
+      "y": 19.6,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "84",
+      "x": 2.8000000000000003,
+      "y": 18.900000000000002,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "85",
+      "x": 3.8000000000000003,
+      "y": 18.7,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "86",
+      "x": 4.6000000000000005,
+      "y": 19.5,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "87",
+      "x": 5.7,
+      "y": 19.400000000000002,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "88",
+      "x": 6.300000000000001,
+      "y": 18.8,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "89",
+      "x": 7.7,
+      "y": 19.3,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "90",
+      "x": 8.5,
+      "y": 19.400000000000002,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "91",
+      "x": 0.8,
+      "y": 21.1,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "92",
+      "x": 1.2000000000000002,
+      "y": 21.700000000000003,
+      "level": "I",
+      "required_visits": 3
+    },
+    {
+      "point_id": "93",
+      "x": 2.2,
+      "y": 21.0,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "94",
+      "x": 3.4000000000000004,
+      "y": 21.6,
+      "level": "II",
+      "required_visits": 2
+    },
+    {
+      "point_id": "95",
+      "x": 4.7,
+      "y": 20.3,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "96",
+      "x": 5.800000000000001,
+      "y": 21.3,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "97",
+      "x": 6.6000000000000005,
+      "y": 20.6,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "98",
+      "x": 7.800000000000001,
+      "y": 21.0,
+      "level": "III",
+      "required_visits": 1
+    },
+    {
+      "point_id": "99",
+      "x": 8.5,
+      "y": 20.400000000000002,
+      "level": "III",
+      "required_visits": 1
+    }
+  ],
+  "tasks": [
+    {
+      "task_id": "Case2-P001-V01",
+      "point_id": "1",
+      "visit_no": 1,
+      "x": 0.6000000000000001,
+      "y": 0.4,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P001-V02",
+      "point_id": "1",
+      "visit_no": 2,
+      "x": 0.6000000000000001,
+      "y": 0.4,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P001-V03",
+      "point_id": "1",
+      "visit_no": 3,
+      "x": 0.6000000000000001,
+      "y": 0.4,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P002-V01",
+      "point_id": "2",
+      "visit_no": 1,
+      "x": 1.5,
+      "y": 1.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P003-V01",
+      "point_id": "3",
+      "visit_no": 1,
+      "x": 2.4000000000000004,
+      "y": 1.8,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P003-V02",
+      "point_id": "3",
+      "visit_no": 2,
+      "x": 2.4000000000000004,
+      "y": 1.8,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P003-V03",
+      "point_id": "3",
+      "visit_no": 3,
+      "x": 2.4000000000000004,
+      "y": 1.8,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P004-V01",
+      "point_id": "4",
+      "visit_no": 1,
+      "x": 3.3000000000000003,
+      "y": 1.2000000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P005-V01",
+      "point_id": "5",
+      "visit_no": 1,
+      "x": 4.800000000000001,
+      "y": 1.2000000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P006-V01",
+      "point_id": "6",
+      "visit_no": 1,
+      "x": 5.7,
+      "y": 1.4000000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P007-V01",
+      "point_id": "7",
+      "visit_no": 1,
+      "x": 6.7,
+      "y": 1.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P008-V01",
+      "point_id": "8",
+      "visit_no": 1,
+      "x": 7.7,
+      "y": 1.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P009-V01",
+      "point_id": "9",
+      "visit_no": 1,
+      "x": 8.6,
+      "y": 1.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P010-V01",
+      "point_id": "10",
+      "visit_no": 1,
+      "x": 0.6000000000000001,
+      "y": 2.1,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P011-V01",
+      "point_id": "11",
+      "visit_no": 1,
+      "x": 1.7000000000000002,
+      "y": 2.6,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P012-V01",
+      "point_id": "12",
+      "visit_no": 1,
+      "x": 2.3000000000000003,
+      "y": 2.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P012-V02",
+      "point_id": "12",
+      "visit_no": 2,
+      "x": 2.3000000000000003,
+      "y": 2.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P012-V03",
+      "point_id": "12",
+      "visit_no": 3,
+      "x": 2.3000000000000003,
+      "y": 2.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P013-V01",
+      "point_id": "13",
+      "visit_no": 1,
+      "x": 3.2,
+      "y": 3.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P014-V01",
+      "point_id": "14",
+      "visit_no": 1,
+      "x": 4.3,
+      "y": 2.3000000000000003,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P015-V01",
+      "point_id": "15",
+      "visit_no": 1,
+      "x": 5.5,
+      "y": 3.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P015-V02",
+      "point_id": "15",
+      "visit_no": 2,
+      "x": 5.5,
+      "y": 3.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P016-V01",
+      "point_id": "16",
+      "visit_no": 1,
+      "x": 6.5,
+      "y": 3.6,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P017-V01",
+      "point_id": "17",
+      "visit_no": 1,
+      "x": 7.800000000000001,
+      "y": 3.9000000000000004,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P017-V02",
+      "point_id": "17",
+      "visit_no": 2,
+      "x": 7.800000000000001,
+      "y": 3.9000000000000004,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P018-V01",
+      "point_id": "18",
+      "visit_no": 1,
+      "x": 8.700000000000001,
+      "y": 3.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P019-V01",
+      "point_id": "19",
+      "visit_no": 1,
+      "x": 0.30000000000000004,
+      "y": 5.300000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P020-V01",
+      "point_id": "20",
+      "visit_no": 1,
+      "x": 1.2000000000000002,
+      "y": 4.4,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P021-V01",
+      "point_id": "21",
+      "visit_no": 1,
+      "x": 2.8000000000000003,
+      "y": 5.300000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P022-V01",
+      "point_id": "22",
+      "visit_no": 1,
+      "x": 3.3000000000000003,
+      "y": 4.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P023-V01",
+      "point_id": "23",
+      "visit_no": 1,
+      "x": 4.7,
+      "y": 4.6000000000000005,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P023-V02",
+      "point_id": "23",
+      "visit_no": 2,
+      "x": 4.7,
+      "y": 4.6000000000000005,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P024-V01",
+      "point_id": "24",
+      "visit_no": 1,
+      "x": 5.5,
+      "y": 5.2,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P025-V01",
+      "point_id": "25",
+      "visit_no": 1,
+      "x": 6.4,
+      "y": 5.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P025-V02",
+      "point_id": "25",
+      "visit_no": 2,
+      "x": 6.4,
+      "y": 5.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P025-V03",
+      "point_id": "25",
+      "visit_no": 3,
+      "x": 6.4,
+      "y": 5.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P026-V01",
+      "point_id": "26",
+      "visit_no": 1,
+      "x": 7.1000000000000005,
+      "y": 5.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P026-V02",
+      "point_id": "26",
+      "visit_no": 2,
+      "x": 7.1000000000000005,
+      "y": 5.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P027-V01",
+      "point_id": "27",
+      "visit_no": 1,
+      "x": 8.700000000000001,
+      "y": 5.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P028-V01",
+      "point_id": "28",
+      "visit_no": 1,
+      "x": 0.4,
+      "y": 7.2,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P029-V01",
+      "point_id": "29",
+      "visit_no": 1,
+      "x": 1.5,
+      "y": 7.800000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P029-V02",
+      "point_id": "29",
+      "visit_no": 2,
+      "x": 1.5,
+      "y": 7.800000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P030-V01",
+      "point_id": "30",
+      "visit_no": 1,
+      "x": 2.2,
+      "y": 7.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P031-V01",
+      "point_id": "31",
+      "visit_no": 1,
+      "x": 3.4000000000000004,
+      "y": 7.1000000000000005,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P032-V01",
+      "point_id": "32",
+      "visit_no": 1,
+      "x": 4.2,
+      "y": 7.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P033-V01",
+      "point_id": "33",
+      "visit_no": 1,
+      "x": 5.4,
+      "y": 7.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P033-V02",
+      "point_id": "33",
+      "visit_no": 2,
+      "x": 5.4,
+      "y": 7.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P034-V01",
+      "point_id": "34",
+      "visit_no": 1,
+      "x": 6.6000000000000005,
+      "y": 7.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P034-V02",
+      "point_id": "34",
+      "visit_no": 2,
+      "x": 6.6000000000000005,
+      "y": 7.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P035-V01",
+      "point_id": "35",
+      "visit_no": 1,
+      "x": 7.800000000000001,
+      "y": 6.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P035-V02",
+      "point_id": "35",
+      "visit_no": 2,
+      "x": 7.800000000000001,
+      "y": 6.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P036-V01",
+      "point_id": "36",
+      "visit_no": 1,
+      "x": 8.700000000000001,
+      "y": 7.300000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P037-V01",
+      "point_id": "37",
+      "visit_no": 1,
+      "x": 0.7000000000000001,
+      "y": 8.1,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P038-V01",
+      "point_id": "38",
+      "visit_no": 1,
+      "x": 1.7000000000000002,
+      "y": 9.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P038-V02",
+      "point_id": "38",
+      "visit_no": 2,
+      "x": 1.7000000000000002,
+      "y": 9.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P038-V03",
+      "point_id": "38",
+      "visit_no": 3,
+      "x": 1.7000000000000002,
+      "y": 9.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P039-V01",
+      "point_id": "39",
+      "visit_no": 1,
+      "x": 2.6,
+      "y": 9.8,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P040-V01",
+      "point_id": "40",
+      "visit_no": 1,
+      "x": 3.2,
+      "y": 9.700000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P041-V01",
+      "point_id": "41",
+      "visit_no": 1,
+      "x": 4.3,
+      "y": 8.8,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P042-V01",
+      "point_id": "42",
+      "visit_no": 1,
+      "x": 5.7,
+      "y": 8.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P042-V02",
+      "point_id": "42",
+      "visit_no": 2,
+      "x": 5.7,
+      "y": 8.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P042-V03",
+      "point_id": "42",
+      "visit_no": 3,
+      "x": 5.7,
+      "y": 8.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P043-V01",
+      "point_id": "43",
+      "visit_no": 1,
+      "x": 6.4,
+      "y": 8.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P044-V01",
+      "point_id": "44",
+      "visit_no": 1,
+      "x": 7.800000000000001,
+      "y": 8.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P045-V01",
+      "point_id": "45",
+      "visit_no": 1,
+      "x": 8.3,
+      "y": 9.8,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P046-V01",
+      "point_id": "46",
+      "visit_no": 1,
+      "x": 0.5,
+      "y": 10.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P047-V01",
+      "point_id": "47",
+      "visit_no": 1,
+      "x": 1.3,
+      "y": 11.100000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P048-V01",
+      "point_id": "48",
+      "visit_no": 1,
+      "x": 2.5,
+      "y": 10.200000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P048-V02",
+      "point_id": "48",
+      "visit_no": 2,
+      "x": 2.5,
+      "y": 10.200000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P049-V01",
+      "point_id": "49",
+      "visit_no": 1,
+      "x": 3.8000000000000003,
+      "y": 11.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P050-V01",
+      "point_id": "50",
+      "visit_no": 1,
+      "x": 4.6000000000000005,
+      "y": 10.700000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P050-V02",
+      "point_id": "50",
+      "visit_no": 2,
+      "x": 4.6000000000000005,
+      "y": 10.700000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P051-V01",
+      "point_id": "51",
+      "visit_no": 1,
+      "x": 5.800000000000001,
+      "y": 11.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P052-V01",
+      "point_id": "52",
+      "visit_no": 1,
+      "x": 6.7,
+      "y": 11.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P053-V01",
+      "point_id": "53",
+      "visit_no": 1,
+      "x": 7.4,
+      "y": 11.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P053-V02",
+      "point_id": "53",
+      "visit_no": 2,
+      "x": 7.4,
+      "y": 11.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P054-V01",
+      "point_id": "54",
+      "visit_no": 1,
+      "x": 8.8,
+      "y": 11.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P055-V01",
+      "point_id": "55",
+      "visit_no": 1,
+      "x": 0.2,
+      "y": 12.4,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P056-V01",
+      "point_id": "56",
+      "visit_no": 1,
+      "x": 1.7000000000000002,
+      "y": 13.4,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P057-V01",
+      "point_id": "57",
+      "visit_no": 1,
+      "x": 2.3000000000000003,
+      "y": 12.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P058-V01",
+      "point_id": "58",
+      "visit_no": 1,
+      "x": 3.6,
+      "y": 13.100000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P059-V01",
+      "point_id": "59",
+      "visit_no": 1,
+      "x": 4.2,
+      "y": 13.700000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P060-V01",
+      "point_id": "60",
+      "visit_no": 1,
+      "x": 5.300000000000001,
+      "y": 12.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P061-V01",
+      "point_id": "61",
+      "visit_no": 1,
+      "x": 6.300000000000001,
+      "y": 13.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P062-V01",
+      "point_id": "62",
+      "visit_no": 1,
+      "x": 7.2,
+      "y": 13.4,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P063-V01",
+      "point_id": "63",
+      "visit_no": 1,
+      "x": 8.700000000000001,
+      "y": 12.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P064-V01",
+      "point_id": "64",
+      "visit_no": 1,
+      "x": 0.2,
+      "y": 14.600000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P064-V02",
+      "point_id": "64",
+      "visit_no": 2,
+      "x": 0.2,
+      "y": 14.600000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P064-V03",
+      "point_id": "64",
+      "visit_no": 3,
+      "x": 0.2,
+      "y": 14.600000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P065-V01",
+      "point_id": "65",
+      "visit_no": 1,
+      "x": 1.6,
+      "y": 14.700000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P066-V01",
+      "point_id": "66",
+      "visit_no": 1,
+      "x": 2.5,
+      "y": 15.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P066-V02",
+      "point_id": "66",
+      "visit_no": 2,
+      "x": 2.5,
+      "y": 15.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P066-V03",
+      "point_id": "66",
+      "visit_no": 3,
+      "x": 2.5,
+      "y": 15.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P067-V01",
+      "point_id": "67",
+      "visit_no": 1,
+      "x": 3.8000000000000003,
+      "y": 15.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P068-V01",
+      "point_id": "68",
+      "visit_no": 1,
+      "x": 4.2,
+      "y": 15.8,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P069-V01",
+      "point_id": "69",
+      "visit_no": 1,
+      "x": 5.7,
+      "y": 15.4,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P070-V01",
+      "point_id": "70",
+      "visit_no": 1,
+      "x": 6.6000000000000005,
+      "y": 15.100000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P071-V01",
+      "point_id": "71",
+      "visit_no": 1,
+      "x": 7.300000000000001,
+      "y": 15.100000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P071-V02",
+      "point_id": "71",
+      "visit_no": 2,
+      "x": 7.300000000000001,
+      "y": 15.100000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P071-V03",
+      "point_id": "71",
+      "visit_no": 3,
+      "x": 7.300000000000001,
+      "y": 15.100000000000001,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P072-V01",
+      "point_id": "72",
+      "visit_no": 1,
+      "x": 8.6,
+      "y": 14.9,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P073-V01",
+      "point_id": "73",
+      "visit_no": 1,
+      "x": 0.5,
+      "y": 17.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P074-V01",
+      "point_id": "74",
+      "visit_no": 1,
+      "x": 1.3,
+      "y": 16.2,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P075-V01",
+      "point_id": "75",
+      "visit_no": 1,
+      "x": 2.5,
+      "y": 16.900000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P075-V02",
+      "point_id": "75",
+      "visit_no": 2,
+      "x": 2.5,
+      "y": 16.900000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P076-V01",
+      "point_id": "76",
+      "visit_no": 1,
+      "x": 3.5,
+      "y": 17.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P076-V02",
+      "point_id": "76",
+      "visit_no": 2,
+      "x": 3.5,
+      "y": 17.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P077-V01",
+      "point_id": "77",
+      "visit_no": 1,
+      "x": 4.6000000000000005,
+      "y": 17.2,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P078-V01",
+      "point_id": "78",
+      "visit_no": 1,
+      "x": 5.4,
+      "y": 16.6,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P079-V01",
+      "point_id": "79",
+      "visit_no": 1,
+      "x": 6.5,
+      "y": 17.400000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P079-V02",
+      "point_id": "79",
+      "visit_no": 2,
+      "x": 6.5,
+      "y": 17.400000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P080-V01",
+      "point_id": "80",
+      "visit_no": 1,
+      "x": 7.300000000000001,
+      "y": 16.1,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P081-V01",
+      "point_id": "81",
+      "visit_no": 1,
+      "x": 8.6,
+      "y": 16.2,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P082-V01",
+      "point_id": "82",
+      "visit_no": 1,
+      "x": 0.2,
+      "y": 19.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P083-V01",
+      "point_id": "83",
+      "visit_no": 1,
+      "x": 1.4000000000000001,
+      "y": 19.6,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P084-V01",
+      "point_id": "84",
+      "visit_no": 1,
+      "x": 2.8000000000000003,
+      "y": 18.900000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P085-V01",
+      "point_id": "85",
+      "visit_no": 1,
+      "x": 3.8000000000000003,
+      "y": 18.7,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P086-V01",
+      "point_id": "86",
+      "visit_no": 1,
+      "x": 4.6000000000000005,
+      "y": 19.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P086-V02",
+      "point_id": "86",
+      "visit_no": 2,
+      "x": 4.6000000000000005,
+      "y": 19.5,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P087-V01",
+      "point_id": "87",
+      "visit_no": 1,
+      "x": 5.7,
+      "y": 19.400000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P087-V02",
+      "point_id": "87",
+      "visit_no": 2,
+      "x": 5.7,
+      "y": 19.400000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P088-V01",
+      "point_id": "88",
+      "visit_no": 1,
+      "x": 6.300000000000001,
+      "y": 18.8,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P088-V02",
+      "point_id": "88",
+      "visit_no": 2,
+      "x": 6.300000000000001,
+      "y": 18.8,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P089-V01",
+      "point_id": "89",
+      "visit_no": 1,
+      "x": 7.7,
+      "y": 19.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P090-V01",
+      "point_id": "90",
+      "visit_no": 1,
+      "x": 8.5,
+      "y": 19.400000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P090-V02",
+      "point_id": "90",
+      "visit_no": 2,
+      "x": 8.5,
+      "y": 19.400000000000002,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P091-V01",
+      "point_id": "91",
+      "visit_no": 1,
+      "x": 0.8,
+      "y": 21.1,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P091-V02",
+      "point_id": "91",
+      "visit_no": 2,
+      "x": 0.8,
+      "y": 21.1,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P092-V01",
+      "point_id": "92",
+      "visit_no": 1,
+      "x": 1.2000000000000002,
+      "y": 21.700000000000003,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P092-V02",
+      "point_id": "92",
+      "visit_no": 2,
+      "x": 1.2000000000000002,
+      "y": 21.700000000000003,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P092-V03",
+      "point_id": "92",
+      "visit_no": 3,
+      "x": 1.2000000000000002,
+      "y": 21.700000000000003,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P093-V01",
+      "point_id": "93",
+      "visit_no": 1,
+      "x": 2.2,
+      "y": 21.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P094-V01",
+      "point_id": "94",
+      "visit_no": 1,
+      "x": 3.4000000000000004,
+      "y": 21.6,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P094-V02",
+      "point_id": "94",
+      "visit_no": 2,
+      "x": 3.4000000000000004,
+      "y": 21.6,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P095-V01",
+      "point_id": "95",
+      "visit_no": 1,
+      "x": 4.7,
+      "y": 20.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P096-V01",
+      "point_id": "96",
+      "visit_no": 1,
+      "x": 5.800000000000001,
+      "y": 21.3,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P097-V01",
+      "point_id": "97",
+      "visit_no": 1,
+      "x": 6.6000000000000005,
+      "y": 20.6,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P098-V01",
+      "point_id": "98",
+      "visit_no": 1,
+      "x": 7.800000000000001,
+      "y": 21.0,
+      "service_h": 0.08333333333333333
+    },
+    {
+      "task_id": "Case2-P099-V01",
+      "point_id": "99",
+      "visit_no": 1,
+      "x": 8.5,
+      "y": 20.400000000000002,
+      "service_h": 0.08333333333333333
+    }
+  ],
+  "nofly_zones": [
+    {
+      "zone_id": "Z4",
+      "x": 4.570833333333334,
+      "y": 14.716666666666667,
+      "radius": 5.0,
+      "start_h": 1.0,
+      "end_h": 3.5,
+      "start_clock": "09:00",
+      "end_clock": "11:30"
+    },
+    {
+      "zone_id": "Z3",
+      "x": 4.514814814814815,
+      "y": 3.1333333333333333,
+      "radius": 5.5,
+      "start_h": 2.5,
+      "end_h": 5.0,
+      "start_clock": "10:30",
+      "end_clock": "13:00"
+    },
+    {
+      "zone_id": "Z2",
+      "x": 4.404761904761905,
+      "y": 19.75714285714286,
+      "radius": 6.1000000000000005,
+      "start_h": 6.5,
+      "end_h": 9.0,
+      "start_clock": "14:30",
+      "end_clock": "17:00"
+    },
+    {
+      "zone_id": "Z1",
+      "x": 4.52962962962963,
+      "y": 9.151851851851852,
+      "radius": 6.1000000000000005,
+      "start_h": 7.0,
+      "end_h": 9.0,
+      "start_clock": "15:00",
+      "end_clock": "17:00"
+    }
+  ]
+}

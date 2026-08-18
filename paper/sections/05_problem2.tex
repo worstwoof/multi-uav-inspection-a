@@ -1,0 +1,58 @@
+\section{问题二：固定机队的负载均衡}
+
+\subsection{继承关系与字典序目标}
+
+问题二固定问题一的最低已验证机队数量，沿用全部任务覆盖、有效到达、基地闭环和 $9\ \mathrm{h}$ 硬约束。定义
+\[
+C=\max_kT_k,\qquad L=\min_kT_k,\qquad \delta=C-L.
+\]
+若问题一只得到最好已验证值 $C_1^{\mathrm{ref}}$，则问题二加入浮点容差约束 $C\leq C_1^{\mathrm{ref}}+\varepsilon_C$。目标采用
+\[
+\operatorname{lexmin}(C,\delta,D),\qquad D=\sum_kD_k,
+\]
+先保持总体完成时间，再压缩工作时间极差，最后比较总距离。标准差、变异系数和 Jain 指数只作为辅助解释，不替代题目直接关心的 $\delta$。
+
+\subsection{跨路线邻域搜索}
+
+以问题一路线为初始解，采用车辆路径启发式搜索的常用邻域思想\cite{gendreau1994}：从最长路线向较短路线 relocate 单个任务或任务块，在长短路线之间 swap，并用 2-opt* 或 cross-exchange 交换路线片段。每次跨路线变动后，对受影响路线执行局部 2-opt。只有任务完整、路线闭环、所有 $T_k\leq9$ h 且字典序目标改善的候选才被接受。图~\ref{fig:flowq2} 展示了该过程。
+
+\clearpage
+\begin{landscape}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.90\linewidth]{fig_flow_q2.pdf}
+\caption{问题二固定机队下的字典序负载均衡流程}
+\label{fig:flowq2}
+\end{figure}
+\end{landscape}
+\clearpage
+
+\subsection{问题二结果与均衡解释}
+
+\begin{table}[H]
+\centering
+\small
+\caption{问题二四个 Case 的最好已验证结果}
+\label{tab:q2-results}
+\begin{tabular}{lrrrrrr}
+\toprule
+Case & UAV 数 & $C$/h & $L$/h & $\delta$/h & 距离/km & 校验 \\
+\midrule
+Case1 & 5 & 8.6139 & 8.5243 & 0.0896 & 2028.679 & 通过 \\
+Case2 & 2 & 7.8011 & 7.7984 & 0.0027 & 220.889 & 通过 \\
+Case3 & 6 & 8.5980 & 8.5004 & 0.0976 & 2180.421 & 通过 \\
+Case4 & 5 & 8.1378 & 8.0734 & 0.0644 & 1393.015 & 通过 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+与问题一相比，问题二在四个 Case 中均保持了原机队数量，并将工作时间安排得更接近。Case1 的极差为 $0.0896\ \mathrm{h}$，Case2 为 $0.0027\ \mathrm{h}$，Case3 为 $0.0976\ \mathrm{h}$，Case4 为 $0.0644\ \mathrm{h}$。这些数值由独立验证器按重新计算的 $\max_kT_k-\min_kT_k$ 得到。问题二路线作为问题三的无禁飞基线。
+
+表~\ref{tab:q2-results} 汇总了固定机队下的最大工作时间、极差和总距离，图~\ref{fig:workhours} 则给出各无人机的工作时间分布。
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{work_hours.pdf}
+\caption{真实结果中的无人机工作时间对比}
+\label{fig:workhours}
+\end{figure}

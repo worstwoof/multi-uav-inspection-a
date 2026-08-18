@@ -1,0 +1,30 @@
+<mxfile host="app.diagrams.net" modified="2026-08-19T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="model" name="统一模型结构">
+    <mxGraphModel dx="1400" dy="850" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1600" pageHeight="950">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="统一模型结构：任务、路线、时空约束与目标" style="text;html=1;fontSize=20;fontStyle=1;fontFamily=Noto Sans SC;fontColor=#25364A" vertex="1" parent="1"><mxGeometry x="500" y="25" width="600" height="35" as="geometry"/></mxCell>
+        <mxCell id="a" value="输入参数&lt;br&gt;Case、点坐标、等级频次&lt;br&gt;v=55 km/h，s=1/12 h，H=9 h&lt;br&gt;禁飞圆与时间窗" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="40" y="160" width="260" height="115" as="geometry"/></mxCell>
+        <mxCell id="b" value="任务集合 M&lt;br&gt;(i,q), q=1,…,r_i&lt;br&gt;唯一 task_id&lt;br&gt;相邻相同点禁止" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="370" y="160" width="245" height="115" as="geometry"/></mxCell>
+        <mxCell id="c" value="路线决策&lt;br&gt;任务分配与访问顺序&lt;br&gt;基地闭环&lt;br&gt;问题三：等待 / 绕行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="685" y="160" width="245" height="115" as="geometry"/></mxCell>
+        <mxCell id="d" value="时间传播&lt;br&gt;D_k/v + n_k s + w_k&lt;br&gt;动态边 Φ_ab(t)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="1000" y="160" width="220" height="115" as="geometry"/></mxCell>
+        <mxCell id="e" value="路线评价&lt;br&gt;D_k、T_k、C=max T_k&lt;br&gt;L=min T_k、δ=C−L" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8F7;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="250" y="390" width="270" height="105" as="geometry"/></mxCell>
+        <mxCell id="f" value="问题一目标&lt;br&gt;先最小可行机队&lt;br&gt;再 min C" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="625" y="390" width="230" height="105" as="geometry"/></mxCell>
+        <mxCell id="g" value="问题二 / 三目标&lt;br&gt;lexmin(C,δ,D)&lt;br&gt;问题三先 min N" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="960" y="390" width="240" height="105" as="geometry"/></mxCell>
+        <mxCell id="h" value="独立验证器&lt;br&gt;coverage · effective visits · closure · distance/time recompute&lt;br&gt;9 h horizon · geometry/time/service/base no-fly checks" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8F7;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="370" y="620" width="590" height="100" as="geometry"/></mxCell>
+        <mxCell id="i" value="结构化输出&lt;br&gt;q1/q2/q3 JSON、结果表与论文图" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="1030" y="630" width="250" height="80" as="geometry"/></mxCell>
+        <mxCell id="x1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="a" target="b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="b" target="c"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="c" target="d"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x4" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="c" target="e"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x5" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="d" target="e"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x6" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="e" target="f"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x7" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="e" target="g"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x8" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="f" target="h"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x9" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="g" target="h"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x10" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="h" target="i"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="n" value="硬约束优先于目标优化" style="text;html=1;fontSize=13;fontStyle=1;fontFamily=Noto Sans SC;fontColor=#25364A" vertex="1" parent="1"><mxGeometry x="40" y="650" width="260" height="35" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

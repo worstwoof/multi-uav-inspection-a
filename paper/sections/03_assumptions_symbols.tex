@@ -1,0 +1,47 @@
+\section{模型假设与符号说明}
+
+\subsection{基本假设}
+
+\begin{enumerate}
+\item 平面欧氏距离能够表示普通飞行距离，除附件 2 的圆形禁飞区外不考虑其他障碍和风速修正。
+\item 所有无人机从基地 $(0,0)$ 同时出发并返回基地，忽略起降时间；问题三的安全等待计入工作时间。
+\item I、II、III 级点分别要求 3、2、1 次独立有效到达；同一点的多次任务可以由不同无人机分担。
+\item 同一路线中相邻相同 \texttt{Point\_ID} 不构成新的有效到达；路线必须以基地开始和结束。
+\item 禁飞圆的内部和边界在活动时段均不可飞行、服务或停留；活动区间为 $[t_s,t_e)$，零时长窗口为空集。
+\item 问题一和问题二的工作时间硬上限均为 $9\ \mathrm{h}$。问题三继承该上限，只有固定原机队无法满足时才增加无人机。
+\end{enumerate}
+
+\subsection{集合、参数与变量}
+
+主要符号及其含义汇总于表~\ref{tab:symbols}，后续三问均沿用这套记号。
+
+\begin{table}[H]
+\centering
+\small
+\caption{主要符号说明}
+\label{tab:symbols}
+\begin{tabular}{p{0.22\textwidth}p{0.66\textwidth}}
+\toprule
+符号 & 含义 \\
+\midrule
+$\mathcal C$ & Case 集合，包含 Case1--Case4 \\
+$\mathcal I$ & 物理巡检点集合；$p_i=(x_i,y_i)$ 为点坐标 \\
+$\mathcal M$ & 展开后的有效到达任务集合，任务 $m=(i,q)$ 对应物理点 $i$ 的第 $q$ 次到达 \\
+$\mathcal K_N$ & 候选无人机集合 $\{1,\ldots,N\}$ \\
+$\mathcal Z$ & 当前 Case 的动态禁飞区集合 \\
+$\gamma$ & 坐标换算系数，$0.1\ \mathrm{km/unit}$ \\
+$v,s,H$ & 巡航速度、单次服务时间和单机工作上限，分别为 $55\ \mathrm{km/h}$、$1/12\ \mathrm{h}$、$9\ \mathrm{h}$ \\
+$d_{ab}$ & 节点 $a,b$ 间欧氏距离（km） \\
+$x_{mk}$ & 任务 $m$ 是否分配给无人机 $k$ 的二元变量 \\
+$y_{abk}$ & 无人机 $k$ 是否沿 $a\to b$ 飞行的二元变量 \\
+$T_k,D_k$ & 无人机 $k$ 的工作时间和总飞行距离 \\
+$C,L,\delta$ & $C=\max_kT_k$、$L=\min_kT_k$、$\delta=C-L$ \\
+$a_{mk},b_{mk},w_k$ & 问题三中任务到达时刻、服务结束时刻和累计安全等待时间 \\
+$(c_z,R_z,[\alpha_z,\beta_z))$ & 禁飞圆 $z$ 的圆心、半径和相对 8:00 的活动窗口 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{三问继承关系}
+
+问题一输出经验证的 $(N_{\min},\mathcal R^{(1)},C_1)$；问题二固定 $N=N_{\min}$，在 $\mathcal R^{(1)}$ 基础上得到 $(\mathcal R^{(2)},C_2,\delta_2)$；问题三继承任务集合和问题二路线，加入时变边代价，输出 $(\mathcal R^{(3)},N_3,C_3,\delta_3)$，其中 $N_3\geq N_{\min}$。由于没有精确 MIP 不可行性证书，文中使用“最低已验证可行机队”而不使用“已证明全局最低”。

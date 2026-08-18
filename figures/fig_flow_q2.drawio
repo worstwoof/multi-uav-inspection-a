@@ -1,0 +1,28 @@
+<mxfile host="app.diagrams.net" modified="2026-08-19T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="flowq2" name="问题二流程">
+    <mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1400" pageHeight="900">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="问题二：固定机队的字典序负载均衡" style="text;html=1;fontSize=20;fontStyle=1;fontFamily=Noto Sans SC;fontColor=#25364A" vertex="1" parent="1"><mxGeometry x="470" y="25" width="460" height="35" as="geometry"/></mxCell>
+        <mxCell id="a" value="输入 q1&lt;br&gt;N=N_min、基准路线、C1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="40" y="180" width="220" height="100" as="geometry"/></mxCell>
+        <mxCell id="b" value="保留 q1 硬约束&lt;br&gt;覆盖、闭环、相邻点、9 h&lt;br&gt;C≤C1+εC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="330" y="180" width="240" height="100" as="geometry"/></mxCell>
+        <mxCell id="c" value="跨路线邻域&lt;br&gt;relocate / swap / 2-opt* / cross-exchange" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="640" y="180" width="245" height="100" as="geometry"/></mxCell>
+        <mxCell id="d" value="可行且&lt;br&gt;lex 改善？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FBE5E5;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="950" y="175" width="170" height="110" as="geometry"/></mxCell>
+        <mxCell id="e" value="接受候选&lt;br&gt;按 (C, δ, D) 比较&lt;br&gt;δ=C−L" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="650" y="390" width="230" height="95" as="geometry"/></mxCell>
+        <mxCell id="f" value="达到停止&lt;br&gt;条件？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FBE5E5;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="345" y="385" width="170" height="105" as="geometry"/></mxCell>
+        <mxCell id="g" value="独立验证&lt;br&gt;重算 C、L、δ、距离" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEE8F7;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="40" y="390" width="220" height="95" as="geometry"/></mxCell>
+        <mxCell id="h" value="输出 q2_case*.json&lt;br&gt;记录任务转移与均衡改善来源" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="40" y="620" width="430" height="85" as="geometry"/></mxCell>
+        <mxCell id="x1" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="a" target="b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x2" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="b" target="c"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x3" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="c" target="d"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x4" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="d" target="e"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x5" value="否：继续搜索" style="edgeStyle=orthogonalEdgeStyle;curved=1;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="d" target="c"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1050" y="120"/></Array></mxGeometry></mxCell>
+        <mxCell id="x6" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="e" target="f"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x7" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="f" target="g"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x8" value="否：继续邻域搜索" style="edgeStyle=orthogonalEdgeStyle;curved=1;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="f" target="c"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="560" y="550"/><mxPoint x="760" y="550"/></Array></mxGeometry></mxCell>
+        <mxCell id="x9" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="g" target="h"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="note" value="目标层级：先不恶化 C，再缩小 δ，最后比较总距离 D" style="text;html=1;fontSize=13;fontStyle=1;fontFamily=Noto Sans SC;fontColor=#25364A" vertex="1" parent="1"><mxGeometry x="650" y="635" width="570" height="35" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

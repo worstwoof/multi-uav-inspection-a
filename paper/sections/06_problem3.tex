@@ -1,0 +1,112 @@
+\section{问题三：动态禁飞区下的时空路径优化}
+
+\subsection{几何相交与时间重叠}
+
+以 8:00 为相对时刻 $t=0$。禁飞区 $z$ 的圆心、半径和活动区间分别为 $(c_z,R_z)$、$R_z$ 和 $[\alpha_z,\beta_z)$。对边 $A\to B$，令 $P(\lambda)=A+\lambda(B-A)$，$0\leq\lambda\leq1$。投影参数为
+\[
+\lambda^*=\operatorname{clip}\left(\frac{(c_z-A)\cdot(B-A)}{\lVert B-A\rVert^2},0,1\right).
+\]
+当 $\lVert P(\lambda^*)-c_z\rVert\leq R_z+\varepsilon_g$ 时，线段与禁飞圆相交。通过求解
+\[
+\lVert A+\lambda(B-A)-c_z\rVert^2=R_z^2
+\]
+得到进入、离开参数 $\lambda_{\mathrm{in}}$ 和 $\lambda_{\mathrm{out}}$。若无人机在相对时刻 $t_d$ 出发，边长为 $L$，则
+\[
+t_{\mathrm{in}}=t_d+\lambda_{\mathrm{in}}L/v,\qquad
+t_{\mathrm{out}}=t_d+\lambda_{\mathrm{out}}L/v.
+\]
+仅当
+\[
+\max(t_{\mathrm{in}},\alpha_z)<\min(t_{\mathrm{out}},\beta_z)
+\]
+时，几何相交才构成动态飞行冲突。只相交但无时间重叠的边仍可直飞。
+
+\subsection{等待、绕行与节点安全}
+
+动态禁飞处理可视为带时间依赖可行域的运动规划问题\cite{lavalle2006}。若直飞会在活动期进入禁飞圆，则在安全节点等待的最小候选时间为
+\[
+w=\max(0,\beta_z-t_{\mathrm{in}}).
+\]
+等待计入工作时间但不增加飞行距离；等待后必须重新传播后续时刻并复核所有禁飞区。若等待代价较高或等待位置不安全，则从起点和终点生成切点，枚举顺、逆时针圆弧，选择不穿越其他活动圆的最短绕行。圆弧绕行距离为
+\[
+L_{\mathrm{detour}}=\lVert A-Q_A\rVert+R_z\Delta\theta+\lVert Q_B-B\rVert.
+\]
+巡检服务区间 $[a_m,a_m+s)$、基地返回和停留也纳入禁飞检查；若端点本身在活动圆内，不能用切线绕行代替时间安排，必须调整访问时刻或路线。
+
+定义时间依赖边函数
+\[
+\Phi_{ab}(t)=\min_{p,w}\left\{t+w+\frac{L(p)}v:\ p\text{ 在整个通过时段不违反活动禁飞区}\right\},
+\]
+其中候选路径 $p$ 包含直飞、等待后直飞和切线—圆弧绕行。给定任务序列后，按
+\[
+a_{r+1,k}=\Phi_{r,r+1}(b_{r,k}),\qquad b_{r+1,k}=a_{r+1,k}+s
+\]
+传播到达和服务结束时刻，最终再传播返回基地的时刻。
+
+\subsection{求解流程与机队处理}
+
+问题三的目标为
+\[
+\operatorname{lexmin}(N_3,C_3,\delta_3,D_{\mathrm{tot}},W_{\mathrm{tot}}),\qquad N_3\geq N_{\min}.
+\]
+先用问题二路线检查 $N=N_{\min}$，优先通过重排任务避免在活动期服务圆内点位，再比较等待与绕行的最早到达时间。若所有候选仍有无人机超过 $9\ \mathrm{h}$，增加一架无人机重新构造。图~\ref{fig:flowq3} 给出联合判断流程。
+
+\clearpage
+\begin{landscape}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.94\linewidth]{fig_flow_q3.pdf}
+\caption{动态禁飞区的几何—时间联合处理流程}
+\label{fig:flowq3}
+\end{figure}
+\end{landscape}
+\clearpage
+
+\subsection{问题三结果}
+
+\begin{table}[H]
+\centering
+\small
+\caption{问题三四个 Case 的正式可行结果}
+\label{tab:q3-results}
+\begin{tabular}{lrrrrrrr}
+\toprule
+Case & UAV 数 & $C$/h & $L$/h & $\delta$/h & 距离/km & 等待/h & 绕行/km \\
+\midrule
+Case1 & 5 & 8.7400 & 8.6139 & 0.1261 & 2055.201 & 0.000 & 0.000 \\
+Case2 & 3 & 7.1608 & 7.1270 & 0.0338 & 458.129 & 1.503 & 0.000 \\
+Case3 & 9 & 7.9812 & 7.7593 & 0.2219 & 3269.259 & 0.000 & 0.454 \\
+Case4 & 7 & 8.3802 & 8.3109 & 0.0693 & 2376.159 & 0.000 & 0.000 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Case2 的动态约束主要通过安全等待处理，累计等待时间为 $1.503\ \mathrm{h}$；Case3 出现 $0.454\ \mathrm{km}$ 绕行增量；Case1 和 Case4 的正式最优记录中等待和绕行均为 0。四个 q3 结果均通过线段—圆几何、时间重叠、服务点、基地、任务覆盖和 $9\ \mathrm{h}$ 的独立验证。
+
+表~\ref{tab:q3-results} 汇总正式可行解，图~\ref{fig:q3routes} 展示其动态路线。
+
+为区分禁飞代价与机队可行性，表~\ref{tab:q3-fixed} 另列固定问题二机队的对照结果。Case2、Case3 和 Case4 在等待传播后分别出现 $10.1388$、$10.4125$ 和 $10.3717\ \mathrm{h}$ 的最大工作时间，因此状态为 \texttt{infeasible\_under\_9h}，不进入正式 q3 可行表。
+
+\begin{table}[H]
+\centering
+\small
+\caption{问题三固定原机队对照}
+\label{tab:q3-fixed}
+\begin{tabular}{lrrrrr}
+\toprule
+Case & 原机队数 & $C$/h & 等待/h & 状态 & 是否进入正式结果 \\
+\midrule
+Case1 & 5 & 8.7400 & 0.000 & best\_verified & 是 \\
+Case2 & 2 & 10.1388 & 2.338 & infeasible\_under\_9h & 否 \\
+Case3 & 6 & 10.4125 & 6.991 & infeasible\_under\_9h & 否 \\
+Case4 & 5 & 10.3717 & 5.241 & infeasible\_under\_9h & 否 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.92\textwidth]{q3_dynamic_routes.pdf}
+\caption{问题三动态禁飞约束下的真实路线}
+\label{fig:q3routes}
+\end{figure}

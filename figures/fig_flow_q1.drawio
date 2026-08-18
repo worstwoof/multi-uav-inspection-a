@@ -1,0 +1,26 @@
+<mxfile host="app.diagrams.net" modified="2026-08-19T00:00:00.000Z" agent="Codex" version="24.7.17">
+  <diagram id="flowq1" name="问题一流程">
+    <mxGraphModel dx="1100" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1000" pageHeight="1300">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="t" value="问题一：最低可行机队与最小最大工作时间" style="text;html=1;fontSize=20;fontStyle=1;fontFamily=Noto Sans SC;fontColor=#25364A" vertex="1" parent="1"><mxGeometry x="260" y="25" width="480" height="35" as="geometry"/></mxCell>
+        <mxCell id="a" value="读取一个 Case：点、等级、速度、服务时间、H=9 h" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="270" y="100" width="460" height="70" as="geometry"/></mxCell>
+        <mxCell id="b" value="展开 task_id；同一路线禁止相邻相同 Point_ID&lt;br&gt;A-A-A=1 次，A-B-A=2 次" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E8F1FA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="270" y="210" width="460" height="75" as="geometry"/></mxCell>
+        <mxCell id="c" value="计算服务下界与工作量下界&lt;br&gt;N_LB = max(N_LB^svc, N_LB^work)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="270" y="325" width="460" height="75" as="geometry"/></mxCell>
+        <mxCell id="d" value="从 N=N_LB 构造多起点初始路线&lt;br&gt;基地 → 任务序列 → 基地" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="270" y="440" width="460" height="75" as="geometry"/></mxCell>
+        <mxCell id="q" value="任务覆盖、闭环、&lt;br&gt;所有 T_k≤9 h？" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FBE5E5;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="380" y="560" width="240" height="110" as="geometry"/></mxCell>
+        <mxCell id="e" value="固定当前 N，局部搜索最小化 C=max_k T_k" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFF1DC;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="270" y="730" width="460" height="70" as="geometry"/></mxCell>
+        <mxCell id="f" value="独立重算距离与时间，输出 q1_case*.json&lt;br&gt;并记录证书状态" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#E6F4EA;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=14" vertex="1" parent="1"><mxGeometry x="270" y="850" width="460" height="75" as="geometry"/></mxCell>
+        <mxCell id="g" value="否：N←N+1，重新构造&lt;br&gt;不可把未找到写成不可行" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FBE5E5;strokeColor=#1F6F8B;fontFamily=Noto Sans SC;fontSize=13" vertex="1" parent="1"><mxGeometry x="30" y="575" width="230" height="80" as="geometry"/></mxCell>
+        <mxCell id="x1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="a" target="b"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="b" target="c"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="c" target="d"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="d" target="q"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x5" value="是" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="q" target="e"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x6" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="e" target="f"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x7" value="否" style="edgeStyle=orthogonalEdgeStyle;endArrow=block;strokeColor=#526579;fontFamily=Noto Sans SC;fontSize=12" edge="1" parent="1" source="q" target="g"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="x8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;curved=1;endArrow=block;strokeColor=#526579" edge="1" parent="1" source="g" target="d"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="150" y="475"/></Array></mxGeometry></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

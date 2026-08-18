@@ -1,0 +1,45 @@
+\section{数据理解与总体思路}
+
+\subsection{附件数据与单位统一}
+
+附件 1 给出 \texttt{Point\_ID}、坐标和 \texttt{Inspection\_Level}；附件 2 给出 \texttt{Zone\_ID}、禁飞圆心、半径以及启停时间。两份附件使用同一坐标系，坐标和半径统一乘以 $0.1$ 转换为 km，时间统一换算为相对 8:00 的小时数。禁飞窗口采用半开区间 $[t_s,t_e)$；Case4 的 Z8 为 17:00--17:00，按零时长窗口处理，不产生正时长禁飞约束。
+
+任务覆盖不能由 Excel 行数直接判断。对每条路线按相邻物理点合并连续段，只有从其他物理点切换到该点才增加一次有效到达。因此 A-A-A 只有一次有效到达，A-B-A 有两次有效到达。该规则同时用于任务展开、路线构造和独立验证。
+
+\begin{table}[H]
+\centering
+\small
+\caption{四个 Case 的标准化数据规模}
+\label{tab:data-scale}
+\begin{tabular}{lrrrrr}
+\toprule
+Case & 物理点数 & 展开任务数 & 禁飞区数 & 服务下界 & 工作量下界 \\
+\midrule
+Case1 & 52 & 72 & 3 & 1 & 2 \\
+Case2 & 99 & 139 & 4 & 2 & 2 \\
+Case3 & 100 & 140 & 6 & 2 & 2 \\
+Case4 & 130 & 182 & 8 & 2 & 3 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+表~\ref{tab:data-scale} 的展开任务规模用于后续理论下界和机队搜索起点的计算。
+
+四个 Case 的纯服务时间分别为 $6.0000$、$11.5833$、$11.6667$ 和 $15.1667\ \mathrm{h}$。这些量只用于构造机队理论下界，不能直接替代包含飞行和回基地的可行性判断。
+
+\subsection{统一求解框架}
+
+模型的输入层包含 Case、点坐标、等级频次、速度、服务时间、工作上限和禁飞区时间窗；任务层将每个有效到达编码为唯一 \texttt{task\_id}；路线层决定任务分配、访问顺序和基地闭环；评价层重算距离、飞行、服务和等待时间；验证层独立检查覆盖、有效到达、闭环、9 h 以及动态禁飞约束。图~\ref{fig:model} 概括了变量和约束之间的关系。
+
+\clearpage
+\begin{landscape}
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.90\linewidth]{fig_model.pdf}
+\caption{任务、路线、时空约束与目标的统一模型结构}
+\label{fig:model}
+\end{figure}
+\end{landscape}
+\clearpage
+
+求解采用固定随机种子多起点搜索。问题一和问题二使用种子 0--5 的独立重启，问题三使用种子 0--1 并执行动态路线局部搜索。所有正式结果从结构化 JSON 读取，图表和本文表格只引用这些已验证输出。

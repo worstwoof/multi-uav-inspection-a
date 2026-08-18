@@ -1,0 +1,73 @@
+\documentclass[UTF8,a4paper,12pt]{ctexart}
+\usepackage[margin=2.72cm]{geometry}
+\usepackage{amsmath,amssymb,bm}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{setspace}
+\usepackage{multirow}
+\usepackage{makecell}
+\usepackage{pdflscape}
+
+\hypersetup{colorlinks=true,linkcolor=black,urlcolor=blue}
+\graphicspath{{figures/}}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small 005445B}
+\fancyhead[R]{\small Page \thepage\ of \pageref{LastPage}}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancypagestyle{plain}{
+  \fancyhf{}
+  \fancyhead[L]{\small 005445B}
+  \fancyhead[R]{\small Page \thepage\ of \pageref{LastPage}}
+  \renewcommand{\headrulewidth}{0.4pt}
+  \renewcommand{\footrulewidth}{0pt}
+}
+
+\setstretch{1.40}
+\sloppy
+\raggedbottom
+\setlength{\headheight}{14pt}
+\setlength{\parindent}{2em}
+\setlength{\parskip}{0.28em}
+\renewcommand{\arraystretch}{1.18}
+\renewcommand\thesection{\chinese{section}}
+\renewcommand\thesubsection{\arabic{section}.\arabic{subsection}}
+
+\ctexset{
+  section = {format = \Large\bfseries\centering},
+  subsection = {format = \large\bfseries}
+}
+
+\begin{document}
+\thispagestyle{fancy}
+\vspace*{-1.2cm}
+\begin{center}
+    {\LARGE\bfseries 低空经济背景下的多无人机协同巡检路径优化问题}
+\end{center}
+\vspace{0.8em}
+\begingroup
+\setstretch{1.25}
+\input{sections/00_abstract.tex}
+\endgroup
+\newpage
+\tableofcontents
+\newpage
+\input{sections/01_problem_model.tex}
+\input{sections/02_data_analysis.tex}
+\input{sections/03_assumptions_symbols.tex}
+\input{sections/04_problem1.tex}
+\input{sections/05_problem2.tex}
+\input{sections/06_problem3.tex}
+\input{sections/07_sensitivity.tex}
+\input{sections/08_evaluation_conclusion.tex}
+\input{sections/09_references.tex}
+\end{document}
